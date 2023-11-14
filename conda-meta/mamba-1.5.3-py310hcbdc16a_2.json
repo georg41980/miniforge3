@@ -1,0 +1,321 @@
+{
+  "build": "py310hcbdc16a_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+  "constrains": [],
+  "depends": [
+    "conda >=23.9,<24",
+    "libmambapy 1.5.3 py310h5938bc3_2",
+    "openssl >=3.1.4,<4.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/home/georg/miniforge3/pkgs/mamba-1.5.3-py310hcbdc16a_2",
+  "features": "",
+  "files": [
+    "bin/mamba",
+    "condabin/mamba",
+    "etc/fish/conf.d/mamba.fish",
+    "etc/profile.d/mamba.sh",
+    "lib/python3.10/site-packages/mamba-1.5.3.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/mamba-1.5.3.dist-info/LICENSE",
+    "lib/python3.10/site-packages/mamba-1.5.3.dist-info/METADATA",
+    "lib/python3.10/site-packages/mamba-1.5.3.dist-info/RECORD",
+    "lib/python3.10/site-packages/mamba-1.5.3.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/mamba-1.5.3.dist-info/WHEEL",
+    "lib/python3.10/site-packages/mamba-1.5.3.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/mamba-1.5.3.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/mamba-1.5.3.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/mamba/__init__.py",
+    "lib/python3.10/site-packages/mamba/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/mamba/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/mamba/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/mamba/__pycache__/linking.cpython-310.pyc",
+    "lib/python3.10/site-packages/mamba/__pycache__/mamba.cpython-310.pyc",
+    "lib/python3.10/site-packages/mamba/__pycache__/mamba_env.cpython-310.pyc",
+    "lib/python3.10/site-packages/mamba/__pycache__/mamba_shell_init.cpython-310.pyc",
+    "lib/python3.10/site-packages/mamba/__pycache__/repoquery.cpython-310.pyc",
+    "lib/python3.10/site-packages/mamba/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/mamba/_version.py",
+    "lib/python3.10/site-packages/mamba/api.py",
+    "lib/python3.10/site-packages/mamba/linking.py",
+    "lib/python3.10/site-packages/mamba/mamba.py",
+    "lib/python3.10/site-packages/mamba/mamba_env.py",
+    "lib/python3.10/site-packages/mamba/mamba_shell_init.py",
+    "lib/python3.10/site-packages/mamba/repoquery.py",
+    "lib/python3.10/site-packages/mamba/shell_templates/mamba.bat",
+    "lib/python3.10/site-packages/mamba/shell_templates/mamba.fish",
+    "lib/python3.10/site-packages/mamba/shell_templates/mamba.sh",
+    "lib/python3.10/site-packages/mamba/shell_templates/win_redirect/mamba.bat",
+    "lib/python3.10/site-packages/mamba/utils.py"
+  ],
+  "fn": "mamba-1.5.3-py310hcbdc16a_2.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/georg/miniforge3/pkgs/mamba-1.5.3-py310hcbdc16a_2",
+    "type": 1
+  },
+  "md5": "231486fa6bfb4f52763cfe1f5813abf9",
+  "name": "mamba",
+  "package_tarball_full_path": "/home/georg/miniforge3/pkgs/mamba-1.5.3-py310hcbdc16a_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/mamba",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mamba-split_1699607307996/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "7ba6ee642e60a22c0864cae6f79a4772c22c6da144b788a7faf1f1c7b9ed6afe",
+        "sha256_in_prefix": "34c0c511d2877e02f3b040048fba2435ab236a2cf0559a9f360a0749d8ea7fd7",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "condabin/mamba",
+        "path_type": "softlink",
+        "sha256": "7ba6ee642e60a22c0864cae6f79a4772c22c6da144b788a7faf1f1c7b9ed6afe",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "etc/fish/conf.d/mamba.fish",
+        "path_type": "hardlink",
+        "sha256": "1453a553b2be53c62b4837283ac1442afdb584014d55d6811f5f8b36734e330e",
+        "sha256_in_prefix": "1453a553b2be53c62b4837283ac1442afdb584014d55d6811f5f8b36734e330e",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "etc/profile.d/mamba.sh",
+        "path_type": "hardlink",
+        "sha256": "41f0a1b9b398bc090fb5c005bba9c2586132cae14cf948b03c1062d130473a20",
+        "sha256_in_prefix": "41f0a1b9b398bc090fb5c005bba9c2586132cae14cf948b03c1062d130473a20",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba-1.5.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba-1.5.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "41fd98a468e39d319911bd94f4e65d6ad6a7ea66559dd5aa4112f138ff9b629a",
+        "sha256_in_prefix": "41fd98a468e39d319911bd94f4e65d6ad6a7ea66559dd5aa4112f138ff9b629a",
+        "size_in_bytes": 1483
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba-1.5.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ef4d6d47a7ca10094539fdc3b45e3b55d03fe35e0f856713acfc116e4145be92",
+        "sha256_in_prefix": "ef4d6d47a7ca10094539fdc3b45e3b55d03fe35e0f856713acfc116e4145be92",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba-1.5.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c4c0992dbe56245e341f9f717e84f900670e34a9a9442b43d4ba61209541cecf",
+        "sha256_in_prefix": "c4c0992dbe56245e341f9f717e84f900670e34a9a9442b43d4ba61209541cecf",
+        "size_in_bytes": 2443
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba-1.5.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba-1.5.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5e8f7ed4fbe4ba29abc9dba360902317ba4292b8ae5c1a543c48e66b59d9c89d",
+        "sha256_in_prefix": "5e8f7ed4fbe4ba29abc9dba360902317ba4292b8ae5c1a543c48e66b59d9c89d",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba-1.5.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "941052ee80419f36943a4f8fc2ea392d3dc83321ed34b328838ba12e49eb6327",
+        "sha256_in_prefix": "941052ee80419f36943a4f8fc2ea392d3dc83321ed34b328838ba12e49eb6327",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba-1.5.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "ee2ddcf64c6755fc11151d0dab39ecf77916cd3b3fa62bd3a229b9fe8c67bf4b",
+        "sha256_in_prefix": "ee2ddcf64c6755fc11151d0dab39ecf77916cd3b3fa62bd3a229b9fe8c67bf4b",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba-1.5.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2a9dc054338292439470e7388cd0eb1cec12d9e1021de15909798a2df9918437",
+        "sha256_in_prefix": "2a9dc054338292439470e7388cd0eb1cec12d9e1021de15909798a2df9918437",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa769046d0468ad6e2997ea166d20fe0d2af9a840791692a1ebea6099c96a13e",
+        "sha256_in_prefix": "fa769046d0468ad6e2997ea166d20fe0d2af9a840791692a1ebea6099c96a13e",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f21b3e68d4e10055f8cfeb33f18a162fde698d4d58a2d2060876498b2bcec3f2",
+        "sha256_in_prefix": "f21b3e68d4e10055f8cfeb33f18a162fde698d4d58a2d2060876498b2bcec3f2",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__pycache__/_version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3070ffa5ad94a3accf41ee2a0f0c8a71f51bf276ca003abdaab9da277be5fc85",
+        "sha256_in_prefix": "3070ffa5ad94a3accf41ee2a0f0c8a71f51bf276ca003abdaab9da277be5fc85",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__pycache__/api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "30148f0461dfd1117375bc42b66e59ae396b1eb0d38634f493c20e9cb8d56b89",
+        "sha256_in_prefix": "30148f0461dfd1117375bc42b66e59ae396b1eb0d38634f493c20e9cb8d56b89",
+        "size_in_bytes": 5186
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__pycache__/linking.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a12a5508c02f6f17c5c037f0798fc31f81b80de1cb9595d6a6e073c524d9ac90",
+        "sha256_in_prefix": "a12a5508c02f6f17c5c037f0798fc31f81b80de1cb9595d6a6e073c524d9ac90",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__pycache__/mamba.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "69fc42ce0ea738dd9bc8b174fafd95c85a9d4f42cdb9d47921bbd6253379528f",
+        "sha256_in_prefix": "69fc42ce0ea738dd9bc8b174fafd95c85a9d4f42cdb9d47921bbd6253379528f",
+        "size_in_bytes": 22756
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__pycache__/mamba_env.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "669ce1fd53d729875b651826817ba01609e80dc4451db1ea751106b22d734d97",
+        "sha256_in_prefix": "669ce1fd53d729875b651826817ba01609e80dc4451db1ea751106b22d734d97",
+        "size_in_bytes": 5350
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__pycache__/mamba_shell_init.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "607bd6f16d954477815f7cd81a1f38d61cbd81db33bb0c6c299f95b7377902b0",
+        "sha256_in_prefix": "607bd6f16d954477815f7cd81a1f38d61cbd81db33bb0c6c299f95b7377902b0",
+        "size_in_bytes": 2876
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__pycache__/repoquery.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fd874947247d73274c1e32b6d1194ffda3811440b6834f52226a0b841a8371a",
+        "sha256_in_prefix": "2fd874947247d73274c1e32b6d1194ffda3811440b6834f52226a0b841a8371a",
+        "size_in_bytes": 1616
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ba9ae233899bf6ba59c3f61358d4173ae60b34bb4c0994eabb743aab6ab9451",
+        "sha256_in_prefix": "4ba9ae233899bf6ba59c3f61358d4173ae60b34bb4c0994eabb743aab6ab9451",
+        "size_in_bytes": 10141
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/_version.py",
+        "path_type": "hardlink",
+        "sha256": "3b28cec9d71c2ea83f46c10386900717e4109fc7d10a89a850d9ddecd87e4a83",
+        "sha256_in_prefix": "3b28cec9d71c2ea83f46c10386900717e4109fc7d10a89a850d9ddecd87e4a83",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/api.py",
+        "path_type": "hardlink",
+        "sha256": "0c1ebd9e6e8e61ca0c46345bc43fe1934ca6bfd21e0bd5f3ba819bf6a9cfb435",
+        "sha256_in_prefix": "0c1ebd9e6e8e61ca0c46345bc43fe1934ca6bfd21e0bd5f3ba819bf6a9cfb435",
+        "size_in_bytes": 5836
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/linking.py",
+        "path_type": "hardlink",
+        "sha256": "e60c7109bdd8f0d8079a1df0dbe10c131ade51796347f23c9633e066a337efe6",
+        "sha256_in_prefix": "e60c7109bdd8f0d8079a1df0dbe10c131ade51796347f23c9633e066a337efe6",
+        "size_in_bytes": 1671
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/mamba.py",
+        "path_type": "hardlink",
+        "sha256": "fccfc2ab883528fcec086d3467105fdddfb8af6b5a975ae36577e6332db4d2ec",
+        "sha256_in_prefix": "fccfc2ab883528fcec086d3467105fdddfb8af6b5a975ae36577e6332db4d2ec",
+        "size_in_bytes": 31611
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/mamba_env.py",
+        "path_type": "hardlink",
+        "sha256": "4cfa809222cedfd07946598a008ffb910ccc2c9ca0d5751705dfa8364213637c",
+        "sha256_in_prefix": "4cfa809222cedfd07946598a008ffb910ccc2c9ca0d5751705dfa8364213637c",
+        "size_in_bytes": 6561
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/mamba_shell_init.py",
+        "path_type": "hardlink",
+        "sha256": "d0d09bb0990b01d4d3fee594f64a49b44b3a68b61baba6fbd0c873e04f617b32",
+        "sha256_in_prefix": "d0d09bb0990b01d4d3fee594f64a49b44b3a68b61baba6fbd0c873e04f617b32",
+        "size_in_bytes": 4010
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/repoquery.py",
+        "path_type": "hardlink",
+        "sha256": "b2e1e0a0c1addc9f364cce8475da170624619de56fc9855de7d5cdb744a8af8d",
+        "sha256_in_prefix": "b2e1e0a0c1addc9f364cce8475da170624619de56fc9855de7d5cdb744a8af8d",
+        "size_in_bytes": 1845
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/shell_templates/mamba.bat",
+        "path_type": "hardlink",
+        "sha256": "ff8d06fdd15cfaaad06ba341a34d2a02df9e7d41a6b4dd9f14bebc55b9a5b775",
+        "sha256_in_prefix": "ff8d06fdd15cfaaad06ba341a34d2a02df9e7d41a6b4dd9f14bebc55b9a5b775",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/shell_templates/mamba.fish",
+        "path_type": "hardlink",
+        "sha256": "1453a553b2be53c62b4837283ac1442afdb584014d55d6811f5f8b36734e330e",
+        "sha256_in_prefix": "1453a553b2be53c62b4837283ac1442afdb584014d55d6811f5f8b36734e330e",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/shell_templates/mamba.sh",
+        "path_type": "hardlink",
+        "sha256": "41f0a1b9b398bc090fb5c005bba9c2586132cae14cf948b03c1062d130473a20",
+        "sha256_in_prefix": "41f0a1b9b398bc090fb5c005bba9c2586132cae14cf948b03c1062d130473a20",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/shell_templates/win_redirect/mamba.bat",
+        "path_type": "hardlink",
+        "sha256": "c627e57f922b03d7a48453225ba2ab3639c99ee146df27b8f093330137b1bfa7",
+        "sha256_in_prefix": "c627e57f922b03d7a48453225ba2ab3639c99ee146df27b8f093330137b1bfa7",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mamba/utils.py",
+        "path_type": "hardlink",
+        "sha256": "7b4205237791fa728cf92a802261c5675bdc3e723dcd78563358da61d792259f",
+        "sha256_in_prefix": "7b4205237791fa728cf92a802261c5675bdc3e723dcd78563358da61d792259f",
+        "size_in_bytes": 14852
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mamba",
+  "sha256": "026f4a969b665b9ab745b070f79809de4e38cdef7ecda7a0ed0a8fca486e2634",
+  "size": 51408,
+  "subdir": "linux-aarch64",
+  "timestamp": 1699609123000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/mamba-1.5.3-py310hcbdc16a_2.conda",
+  "version": "1.5.3"
+}

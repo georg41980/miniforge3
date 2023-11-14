@@ -1,0 +1,81 @@
+{
+    "arch": "aarch64",
+    "build": "h516909a_1",
+    "build_number": 1,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=7.5.0"
+    ],
+    "extracted_package_dir": "/home/georg/miniforge3/pkgs/libev-4.33-h516909a_1",
+    "files": [
+        "include/ev++.h",
+        "include/ev.h",
+        "lib/libev.so",
+        "lib/libev.so.4",
+        "lib/libev.so.4.0.0",
+        "share/man/man3/ev.3"
+    ],
+    "fn": "libev-4.33-h516909a_1.tar.bz2",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/home/georg/miniforge3/pkgs/libev-4.33-h516909a_1",
+        "type": 1
+    },
+    "md5": "9eac5901791494108c9b9ab85ca8aa93",
+    "name": "libev",
+    "package_tarball_full_path": "/home/georg/miniforge3/pkgs/libev-4.33-h516909a_1.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/ev++.h",
+                "path_type": "hardlink",
+                "sha256": "918c757dc7f2ccf58012326b9aa6e5060d3b951b5e2c0542111204762df936e7",
+                "sha256_in_prefix": "918c757dc7f2ccf58012326b9aa6e5060d3b951b5e2c0542111204762df936e7",
+                "size_in_bytes": 20549
+            },
+            {
+                "_path": "include/ev.h",
+                "path_type": "hardlink",
+                "sha256": "6622bd23ae922f066cecbba48b3290a6c9325c879db158484cf0899ca95687d2",
+                "sha256_in_prefix": "6622bd23ae922f066cecbba48b3290a6c9325c879db158484cf0899ca95687d2",
+                "size_in_bytes": 30257
+            },
+            {
+                "_path": "lib/libev.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ed561ff72026e0b5ffc737589771c38edebd865497c2368b56836169064cce59",
+                "size_in_bytes": 62024
+            },
+            {
+                "_path": "lib/libev.so.4",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ed561ff72026e0b5ffc737589771c38edebd865497c2368b56836169064cce59",
+                "size_in_bytes": 62024
+            },
+            {
+                "_path": "lib/libev.so.4.0.0",
+                "path_type": "hardlink",
+                "sha256": "ed561ff72026e0b5ffc737589771c38edebd865497c2368b56836169064cce59",
+                "sha256_in_prefix": "ed561ff72026e0b5ffc737589771c38edebd865497c2368b56836169064cce59",
+                "size_in_bytes": 62024
+            },
+            {
+                "_path": "share/man/man3/ev.3",
+                "path_type": "hardlink",
+                "sha256": "178fb4d367b9626165733a0927f0b597686ee24675424b9ab6dc2f9cd9a86952",
+                "sha256_in_prefix": "178fb4d367b9626165733a0927f0b597686ee24675424b9ab6dc2f9cd9a86952",
+                "size_in_bytes": 273163
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "conda-forge/linux-aarch64::libev==4.33=h516909a_1[md5=9eac5901791494108c9b9ab85ca8aa93]",
+    "sha256": "b9e8bcd26f0b0ded4c43232d55048bab910a4268197757f2368458759d9f3ef9",
+    "size": 105581,
+    "subdir": "linux-aarch64",
+    "timestamp": 1598868068767,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libev-4.33-h516909a_1.tar.bz2",
+    "version": "4.33"
+}
