@@ -1,0 +1,20 @@
+{
+  "arch": "aarch64",
+  "build": "py310h34e2850_0",
+  "build_number": 0,
+  "depends": [
+    "cffi >=1.12",
+    "libgcc-ng >=12",
+    "openssl >=3.1.4,<4.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+  "license_family": "BSD",
+  "name": "cryptography",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1698192312518,
+  "version": "41.0.5"
+}

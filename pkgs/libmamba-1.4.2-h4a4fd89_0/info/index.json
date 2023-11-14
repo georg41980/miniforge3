@@ -1,0 +1,23 @@
+{
+  "arch": "aarch64",
+  "build": "h4a4fd89_0",
+  "build_number": 0,
+  "depends": [
+    "fmt >=9.1.0,<10.0a0",
+    "libarchive >=3.6.2,<3.7.0a0",
+    "libcurl >=7.88.1,<8.0a0",
+    "libgcc-ng >=12",
+    "libsolv >=0.7.23,<0.8.0a0",
+    "libstdcxx-ng >=12",
+    "openssl >=3.1.0,<4.0a0",
+    "reproc-cpp >=14.2,<15.0a0",
+    "yaml-cpp >=0.7.0,<0.8.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "libmamba",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1680791858211,
+  "version": "1.4.2"
+}

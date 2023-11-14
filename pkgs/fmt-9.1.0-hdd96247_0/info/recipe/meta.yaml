@@ -1,0 +1,90 @@
+# This file created by conda-build 3.22.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Aug 28 04:30:31 2022
+# ------------------------------------------------
+
+package:
+  name: fmt
+  version: 9.1.0
+source:
+  sha256: 5dea48d1fcddc3ec571ce2058e13910a0d4a6bab4cc09a809d8b1dd1c88ae6f2
+  url: https://github.com/fmtlib/fmt/archive/9.1.0.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - fmt >=9.1.0,<10.0a0
+  string: hdd96247_0
+requirements:
+  build:
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-aarch64 2.36.1 h026399b_2
+    - binutils_linux-aarch64 2.36 h7854541_10
+    - bzip2 1.0.8 hf897c2e_4
+    - c-ares 1.18.1 hf897c2e_0
+    - ca-certificates 2022.6.15 h4fd8a4c_0
+    - cmake 3.24.0 hcad14f8_0
+    - expat 2.4.8 ha18d298_0
+    - gcc_impl_linux-aarch64 10.4.0 hbc23e19_16
+    - gcc_linux-aarch64 10.4.0 h72ad2ee_10
+    - gxx_impl_linux-aarch64 10.4.0 hbc23e19_16
+    - gxx_linux-aarch64 10.4.0 hb08d869_10
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - keyutils 1.6.1 h4e544f5_0
+    - krb5 1.19.3 h750e270_0
+    - ld_impl_linux-aarch64 2.36.1 h02ad14f_2
+    - libcurl 7.83.1 h22f3f83_0
+    - libedit 3.1.20191231 he28a2e2_2
+    - libev 4.33 h516909a_1
+    - libgcc-devel_linux-aarch64 10.4.0 hf691355_16
+    - libgcc-ng 12.1.0 h3242a24_16
+    - libgomp 12.1.0 h3242a24_16
+    - libnghttp2 1.47.0 h674c3cc_1
+    - libsanitizer 10.4.0 h69a60c7_16
+    - libssh2 1.10.0 he5a64b1_3
+    - libstdcxx-devel_linux-aarch64 10.4.0 hf691355_16
+    - libstdcxx-ng 12.1.0 hd01590b_16
+    - libuv 1.44.2 h4e544f5_0
+    - libzlib 1.2.12 h4e544f5_2
+    - make 4.3 h309ac5b_1
+    - ncurses 6.3 headf329_1
+    - openssl 3.0.5 h4e544f5_1
+    - rhash 1.4.3 h4e544f5_0
+    - sysroot_linux-aarch64 2.17 h43d7e78_13
+    - xz 5.2.6 h9cdd2b7_0
+    - zlib 1.2.12 h4e544f5_2
+    - zstd 1.5.2 hc1e27d5_4
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc-ng 12.1.0 h3242a24_16
+    - libgomp 12.1.0 h3242a24_16
+    - libstdcxx-ng 12.1.0 hd01590b_16
+  run:
+    - libgcc-ng >=12
+    - libstdcxx-ng >=12
+test:
+  commands:
+    - test -d ${PREFIX}/include/fmt
+    - test -f ${PREFIX}/include/fmt/core.h
+    - test -f ${PREFIX}/include/fmt/format.h
+    - test -f ${PREFIX}/lib/cmake/fmt/fmt-config.cmake
+    - test -f ${PREFIX}/lib/libfmt.so
+about:
+  description: '{fmt} is an open-source formatting library for C++.
+
+    It can be used as a safe and fast alternative to (s)printf and iostreams.
+
+    '
+  dev_url: https://github.com/fmtlib/fmt
+  doc_url: https://fmt.dev/latest/
+  home: https://fmt.dev/latest/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.rst
+  summary: '{fmt} is an open-source formatting library for C++'
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - saraedum
+    - tdegeus
+    - vitaut

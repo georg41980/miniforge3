@@ -1,0 +1,65 @@
+# This file created by conda-build 3.23.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Mar 23 00:41:24 2023
+# ------------------------------------------------
+
+package:
+  name: readline
+  version: '8.2'
+source:
+  sha256: 3feb7171f16a84ee82ca18a36d7b9be109a52c04f492a053331d7d1095007c35
+  url: https://ftp.gnu.org/gnu/readline/readline-8.2.tar.gz
+build:
+  number: '1'
+  run_exports:
+    - readline >=8.2,<9.0a0
+  string: h8fc344f_1
+requirements:
+  build:
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-aarch64 2.39 h48546ad_1
+    - binutils_linux-aarch64 2.39 h489c705_11
+    - gcc_impl_linux-aarch64 11.3.0 h771ed3b_19
+    - gcc_linux-aarch64 11.3.0 h2cafa97_11
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-aarch64 2.39 h16cd69b_1
+    - libgcc-devel_linux-aarch64 11.3.0 h02014c4_19
+    - libgcc-ng 12.2.0 h607ecd0_19
+    - libgomp 12.2.0 h607ecd0_19
+    - libsanitizer 11.3.0 hdddb281_19
+    - libstdcxx-ng 12.2.0 hc13a102_19
+    - libtool 2.4.7 h4de3ea5_0
+    - make 4.3 h309ac5b_1
+    - pkg-config 0.29.2 hb9de7d4_1008
+    - sysroot_linux-aarch64 2.17 h43d7e78_13
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc-ng 12.2.0 h607ecd0_19
+    - libgomp 12.2.0 h607ecd0_19
+    - ncurses 6.3 headf329_1
+  run:
+    - libgcc-ng >=12
+    - ncurses >=6.3,<7.0a0
+test:
+  commands:
+    - test ! -f ${PREFIX}/lib/libreadline.a
+    - test -f ${PREFIX}/lib/libreadline${SHLIB_EXT}
+    - test ! -f ${PREFIX}/lib/libhistory.a
+    - test -f ${PREFIX}/lib/libhistory${SHLIB_EXT}
+about:
+  home: https://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+  license: GPL-3.0-only
+  license_file: COPYING
+  summary: library for editing command lines as they are typed in
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - asmeurer
+    - croth1
+    - jakirkham
+    - mingwandroid
+    - msarahan
+    - msarahan
+    - ocefpaf
+    - pelson

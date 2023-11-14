@@ -1,0 +1,7 @@
+{
+  "BUILD": "aarch64-conda_cos7-linux-gnu",
+  "target_platform": "linux-aarch64",
+  "c_compiler": "gcc",
+  "channel_targets": "conda-forge main",
+  "c_compiler_version": "10"
+}

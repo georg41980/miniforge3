@@ -1,0 +1,53 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /drone/src/recipe, last modified Mon Aug 31 09:54:44 2020
+# ------------------------------------------------
+
+package:
+    name: libev
+    version: '4.33'
+source:
+    fn: libev-4.33.tar.gz
+    sha256: 507eb7b8d1015fbec5b935f34ebed15bf346bed04a11ab82b8eee848c4205aea
+    url: http://dist.schmorp.de/libev/Attic/libev-4.33.tar.gz
+build:
+    number: '1'
+    run_exports:
+        - libev >=4.33,<4.34.0a0
+    string: h516909a_1
+requirements:
+    build:
+        - _openmp_mutex 4.5 1_gnu
+        - binutils_impl_linux-aarch64 2.34 hb77b82c_9
+        - binutils_linux-aarch64 2.34 hfcdf779_27
+        - gcc_impl_linux-aarch64 7.5.0 hf17dfc6_14
+        - gcc_linux-aarch64 7.5.0 h6232204_27
+        - kernel-headers_linux-aarch64 4.18.0 hca5cc2b_10
+        - ld_impl_linux-aarch64 2.34 h281f86e_9
+        - libgcc-devel_linux-aarch64 7.5.0 h1a28f53_14
+        - libgcc-ng 9.3.0 h8e86211_15
+        - libgomp 9.3.0 h8e86211_15
+        - libstdcxx-ng 9.3.0 hca8aa85_15
+        - libtool 2.4.6 h516909a_1004
+        - make 4.3 h516909a_0
+        - sysroot_linux-aarch64 2.17 h4744778_10
+    host:
+        - _openmp_mutex 4.5 1_gnu
+        - libgcc-ng 9.3.0 h8e86211_15
+        - libgomp 9.3.0 h8e86211_15
+    run:
+        - libgcc-ng >=7.5.0
+about:
+    home: http://software.schmorp.de/pkg/libev.html
+    license: BSD-2-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A full-featured and high-performance event loop that is loosely modeled
+        after libevent, but without its limitations and bugs.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - carlodri
+        - petercable
+        - wolfv

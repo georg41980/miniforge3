@@ -1,0 +1,25 @@
+{
+    "arch": "aarch64",
+    "build": "h2a328a1_0",
+    "build_number": 0,
+    "build_string": "h2a328a1_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+    "constrains": [],
+    "depends": [
+        "libgcc-ng >=12",
+        "libstdcxx-ng >=12"
+    ],
+    "fn": "fmt-10.1.1-h2a328a1_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "f80737c13f3bf62e54244d707d31a4e8",
+    "name": "fmt",
+    "platform": "linux",
+    "sha256": "562e749201183cc40aed6de939ed881adf93bae1eb9157c81aa8056c9458eba7",
+    "size": 187919,
+    "subdir": "linux-aarch64",
+    "timestamp": 1693283535118,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/fmt-10.1.1-h2a328a1_0.conda",
+    "version": "10.1.1"
+}

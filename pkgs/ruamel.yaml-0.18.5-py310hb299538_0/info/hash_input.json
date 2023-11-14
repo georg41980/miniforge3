@@ -1,0 +1,8 @@
+{
+  "c_compiler_version": "12",
+  "build_platform": "linux-64",
+  "python": "3.10.* *_cpython",
+  "target_platform": "linux-aarch64",
+  "c_compiler": "gcc",
+  "channel_targets": "conda-forge main"
+}

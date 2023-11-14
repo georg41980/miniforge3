@@ -1,0 +1,6 @@
+{
+  "target_platform": "linux-aarch64",
+  "build_platform": "linux-64",
+  "python": "3.10.* *_cpython",
+  "channel_targets": "conda-forge main"
+}

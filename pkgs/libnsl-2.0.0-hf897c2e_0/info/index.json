@@ -1,0 +1,15 @@
+{
+  "arch": "aarch64",
+  "build": "hf897c2e_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=9.4.0"
+  ],
+  "license": "GPL-2.0-only",
+  "license_family": "GPL",
+  "name": "libnsl",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1633470899439,
+  "version": "2.0.0"
+}

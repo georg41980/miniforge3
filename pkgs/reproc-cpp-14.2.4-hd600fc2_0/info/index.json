@@ -1,0 +1,16 @@
+{
+  "arch": "aarch64",
+  "build": "hd600fc2_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "reproc 14.2.4 hb4cce97_0"
+  ],
+  "license": "MIT",
+  "name": "reproc-cpp",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1671663144735,
+  "version": "14.2.4"
+}

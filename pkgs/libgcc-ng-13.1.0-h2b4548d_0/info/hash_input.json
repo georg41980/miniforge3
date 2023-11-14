@@ -1,0 +1,13 @@
+{
+  "glib": "2",
+  "cross_target_platform": "linux-aarch64",
+  "binutils_version": "2.39",
+  "channel_targets": "conda-forge main",
+  "build_platform": "linux-64",
+  "target_platform": "linux-aarch64",
+  "use_system_gcc": "False",
+  "glibc_version": "2.17",
+  "gcc_machine": "aarch64",
+  "libgomp_ver": "1.0.0",
+  "gcc_version": "13.1.0"
+}

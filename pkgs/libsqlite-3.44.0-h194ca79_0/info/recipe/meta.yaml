@@ -1,0 +1,72 @@
+# This file created by conda-build 3.24.0
+# ------------------------------------------------
+
+package:
+  name: libsqlite
+  version: 3.44.0
+source:
+  patches: null
+  sha256: b9cd386e7cd22af6e0d2a0f06d0404951e1bef109e42ea06cc0450e10cd15550
+  url: https://www.sqlite.org/2023/sqlite-autoconf-3440000.tar.gz
+build:
+  number: 0
+  run_exports:
+    - libsqlite >=3.44.0,<4.0a0
+  string: h194ca79_0
+requirements:
+  build:
+    - _openmp_mutex 4.5 2_gnu
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - binutils_impl_linux-aarch64 2.40 h870a726_0
+    - binutils_linux-aarch64 2.40 h94bbfa1_2
+    - gcc_impl_linux-aarch64 12.3.0 hcde2664_2
+    - gcc_linux-aarch64 12.3.0 h464a8f7_2
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-aarch64 2.40 h2d8c526_0
+    - libgcc-devel_linux-aarch64 12.3.0 h8b5ab12_2
+    - libgcc-ng 13.2.0 hf8544c7_2
+    - libgomp 13.2.0 hf8544c7_2
+    - libsanitizer 12.3.0 h8ebda82_2
+    - libstdcxx-ng 13.2.0 h9a76618_2
+    - libtool 2.4.7 h4de3ea5_0
+    - make 4.3 h309ac5b_1
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc-ng 13.2.0 hf8544c7_2
+    - libgomp 13.2.0 hf8544c7_2
+    - libzlib 1.2.13 h31becfc_5
+    - zlib 1.2.13 h31becfc_5
+  run:
+    - libgcc-ng >=12
+    - libzlib >=1.2.13,<1.3.0a0
+test:
+  commands:
+    - test -f $PREFIX/lib/libsqlite3${SHLIB_EXT}
+    - test ! -f $PREFIX/lib/libsqlite3.a
+    - test -f $PREFIX/include/sqlite3.h
+    - test -f $PREFIX/include/sqlite3ext.h
+about:
+  description: 'SQLite is a self-contained, high-reliability, embedded, full-featured,
+
+    public-domain, SQL database engine.It is the most used database engine
+
+    in the world.
+
+    '
+  dev_url: https://github.com/mackyle/sqlite
+  doc_source_url: https://github.com/mackyle/sqlite/tree/master/doc
+  doc_url: http://www.sqlite.org/docs.html
+  home: http://www.sqlite.org/
+  license: Unlicense
+  license_url: http://www.sqlite.org/copyright.html
+  summary: Implements a self-contained, zero-configuration, SQL database engine
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jakirkham
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - snorfalorpagus

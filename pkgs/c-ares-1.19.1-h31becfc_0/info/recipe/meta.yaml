@@ -1,0 +1,62 @@
+# This file created by conda-build 3.24.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon May 22 19:08:14 2023
+# ------------------------------------------------
+
+package:
+  name: c-ares
+  version: 1.19.1
+source:
+  sha256: 321700399b72ed0e037d0074c629e7741f6b2ec2dda92956abe3e9671d3e268e
+  url: https://c-ares.haxx.se/download/c-ares-1.19.1.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - c-ares >=1.19.1,<2.0a0
+  string: h31becfc_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - binutils_impl_linux-64 2.40 hf600244_0
+    - binutils_impl_linux-aarch64 2.39 h57c828d_1
+    - binutils_linux-aarch64 2.39 h9a81858_13
+    - cmake-no-system 3.18.0 hcb278e6_0
+    - gcc_impl_linux-64 12.2.0 hcc96c02_19
+    - gcc_impl_linux-aarch64 12.2.0 h74c8edf_19
+    - gcc_linux-aarch64 12.2.0 hc1bb72a_13
+    - kernel-headers_linux-64 2.6.32 he073ed8_15
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - ld_impl_linux-aarch64 2.39 hc438fd5_1
+    - libgcc-devel_linux-64 12.2.0 h3b97bd3_19
+    - libgcc-devel_linux-aarch64 12.2.0 hb41d4e8_19
+    - libgcc-ng 12.2.0 h65d4601_19
+    - libgomp 12.2.0 h65d4601_19
+    - libsanitizer 12.2.0 h46fd767_19
+    - libstdcxx-ng 12.2.0 h46fd767_19
+    - ninja 1.11.1 h924138e_0
+    - sysroot_linux-64 2.12 he073ed8_15
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc-ng 12.2.0 h607ecd0_19
+    - libgomp 12.2.0 h607ecd0_19
+  run:
+    - libgcc-ng >=12
+  run_constraint:
+    - c-ares-static <0a0
+about:
+  home: https://c-ares.haxx.se/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.md
+  summary: This is c-ares, an asynchronous resolver library
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - ocefpaf
+    - wesm
+    - xhochy

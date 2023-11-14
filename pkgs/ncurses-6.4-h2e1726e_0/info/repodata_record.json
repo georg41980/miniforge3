@@ -1,0 +1,20 @@
+{
+    "arch": "aarch64",
+    "build": "h2e1726e_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12"
+    ],
+    "fn": "ncurses-6.4-h2e1726e_0.conda",
+    "license": "X11 AND BSD-3-Clause",
+    "md5": "40beaf447150c2760affc591c7509595",
+    "name": "ncurses",
+    "platform": "linux",
+    "sha256": "650fddca6831a4950b526e4bb6cc6508a04372f21ef1cfee19ebe24605d47c2f",
+    "size": 921238,
+    "subdir": "linux-aarch64",
+    "timestamp": 1686076828384,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/ncurses-6.4-h2e1726e_0.conda",
+    "version": "6.4"
+}

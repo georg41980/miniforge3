@@ -1,0 +1,35 @@
+{
+  "arch": "aarch64",
+  "build": "py310h4c7bcd0_1",
+  "build_number": 1,
+  "constrains": [
+    "conda-content-trust >=0.1.1",
+    "conda-env >=2.6",
+    "conda-build >=3.27"
+  ],
+  "depends": [
+    "archspec",
+    "boltons >=23.0.0",
+    "charset-normalizer",
+    "conda-libmamba-solver >=23.11.0",
+    "conda-package-handling >=2.2.0",
+    "jsonpatch >=1.32",
+    "packaging >=23.0",
+    "pluggy >=1.0.0",
+    "pycosat >=0.6.3",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310",
+    "requests >=2.27.0,<3",
+    "ruamel.yaml >=0.11.14,<0.19",
+    "setuptools >=60.0.0",
+    "tqdm >=4",
+    "truststore >=0.8.0"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "conda",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1699392616845,
+  "version": "23.10.0"
+}

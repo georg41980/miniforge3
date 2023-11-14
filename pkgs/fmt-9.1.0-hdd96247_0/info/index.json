@@ -1,0 +1,16 @@
+{
+  "arch": "aarch64",
+  "build": "hdd96247_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "fmt",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1661661160196,
+  "version": "9.1.0"
+}

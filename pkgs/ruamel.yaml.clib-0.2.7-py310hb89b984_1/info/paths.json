@@ -1,0 +1,65 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.10/site-packages/_ruamel_yaml.cpython-310-aarch64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "2f71e3603012ed65c3d0a612d3210a9a0ad499ace99537d0d3ae02d5439a38e3",
+      "size_in_bytes": 388672
+    },
+    {
+      "_path": "lib/python3.10/site-packages/ruamel.yaml.clib-0.2.7.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.10/site-packages/ruamel.yaml.clib-0.2.7.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "8340f7a406c6c8e35956ecf63ae4080bab49a626481385ffb1a16de7df5cb8b5",
+      "size_in_bytes": 1121
+    },
+    {
+      "_path": "lib/python3.10/site-packages/ruamel.yaml.clib-0.2.7.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "240f2d72a468fffe3faba4aab99cdcab7dd550467f5f21580f804dd3361982e8",
+      "size_in_bytes": 2076
+    },
+    {
+      "_path": "lib/python3.10/site-packages/ruamel.yaml.clib-0.2.7.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "f039d6718a7e63d0fa8feab351dec2760cdea9d164456df5b3b6fc4b4cbf4435",
+      "size_in_bytes": 952
+    },
+    {
+      "_path": "lib/python3.10/site-packages/ruamel.yaml.clib-0.2.7.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.10/site-packages/ruamel.yaml.clib-0.2.7.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "745b92c3ca52d1c73f7be5739fde36afc92a81ba41568199b997a85ceb5be9d4",
+      "size_in_bytes": 106
+    },
+    {
+      "_path": "lib/python3.10/site-packages/ruamel.yaml.clib-0.2.7.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "73f9d0aba5e3f0409a3d0f14bf0c880696dc6bbe7c0e3b674fe2adf6008013aa",
+      "size_in_bytes": 112
+    },
+    {
+      "_path": "lib/python3.10/site-packages/ruamel.yaml.clib-0.2.7.dist-info/namespace_packages.txt",
+      "path_type": "hardlink",
+      "sha256": "b8ccc27461cd768c3bfe29cec7aad96b11ba378e5c5561c4ad4d218e2b6f7a1b",
+      "size_in_bytes": 19
+    },
+    {
+      "_path": "lib/python3.10/site-packages/ruamel.yaml.clib-0.2.7.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "d6c25b6b7206776b1a6f7bbfea45b234f4bcc86fc01ed3f425d99a0e80785c1d",
+      "size_in_bytes": 20
+    }
+  ],
+  "paths_version": 1
+}

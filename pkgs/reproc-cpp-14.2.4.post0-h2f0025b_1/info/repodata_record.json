@@ -1,0 +1,25 @@
+{
+    "arch": "aarch64",
+    "build": "h2f0025b_1",
+    "build_number": 1,
+    "build_string": "h2f0025b_1",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+    "constrains": [],
+    "depends": [
+        "libgcc-ng >=12",
+        "libstdcxx-ng >=12",
+        "reproc 14.2.4.post0 h31becfc_1"
+    ],
+    "fn": "reproc-cpp-14.2.4.post0-h2f0025b_1.conda",
+    "license": "MIT",
+    "md5": "35148ef0f190022ca52cf6edd6bdc814",
+    "name": "reproc-cpp",
+    "platform": "linux",
+    "sha256": "3216952572764ec7424317ee71bddf86443329fa335d1bea3d33b0cd5a8e358c",
+    "size": 25589,
+    "subdir": "linux-aarch64",
+    "timestamp": 1698242268434,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/reproc-cpp-14.2.4.post0-h2f0025b_1.conda",
+    "version": "14.2.4.post0"
+}

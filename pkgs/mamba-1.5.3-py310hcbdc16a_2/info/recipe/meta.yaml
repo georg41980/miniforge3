@@ -1,0 +1,180 @@
+# This file created by conda-build 3.27.0
+# ------------------------------------------------
+
+package:
+  name: mamba
+  version: 1.5.3
+source:
+  sha256: 36d617de5971ad2b4460f5446bee7622f33cf3a8a079df8f97bc24e9a5873071
+  url: https://github.com/mamba-org/mamba/archive/refs/tags/2023.10.30.tar.gz
+build:
+  entry_points:
+    - mamba = mamba.mamba:main
+  number: 2
+  string: py310hcbdc16a_2
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - binutils_impl_linux-64 2.40 hf600244_0
+    - binutils_impl_linux-aarch64 2.40 h40ea8b1_0
+    - binutils_linux-aarch64 2.40 h19b5abf_2
+    - bzip2 1.0.8 hd590300_5
+    - ca-certificates 2023.7.22 hbcca054_0
+    - cross-python_linux-aarch64 3.10 41_cpython
+    - crossenv 1.4.0 pyhd8ed1ab_0
+    - gcc_impl_linux-64 13.2.0 h338b0a0_2
+    - gcc_impl_linux-aarch64 13.2.0 h22d4421_2
+    - gcc_linux-aarch64 13.2.0 h3cf286d_2
+    - kernel-headers_linux-64 2.6.32 he073ed8_16
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - ld_impl_linux-aarch64 2.40 hc365e21_0
+    - libffi 3.4.2 h7f98852_5
+    - libgcc-devel_linux-64 13.2.0 ha9c7c90_2
+    - libgcc-devel_linux-aarch64 13.2.0 h66a9a87_2
+    - libgcc-ng 13.2.0 h807b86a_2
+    - libgomp 13.2.0 h807b86a_2
+    - libiconv 1.17 h166bdaf_0
+    - libnsl 2.0.1 hd590300_0
+    - libsanitizer 13.2.0 h7e041cc_2
+    - libsqlite 3.44.0 h2797004_0
+    - libstdcxx-ng 13.2.0 h7e041cc_2
+    - libuuid 2.38.1 h0b41bf4_0
+    - libzlib 1.2.13 hd590300_5
+    - lz4-c 1.9.4 hcb278e6_0
+    - ncurses 6.4 h59595ed_2
+    - openssl 3.1.4 hd590300_0
+    - pip 23.3.1 pyhd8ed1ab_0
+    - popt 1.16 h0b475e3_2002
+    - python 3.10.13 hd12c33a_0_cpython
+    - readline 8.2 h8228510_1
+    - rsync 3.2.7 h70740c4_0
+    - sed 4.8 he412f7d_0
+    - setuptools 68.2.2 pyhd8ed1ab_0
+    - sysroot_linux-64 2.12 he073ed8_16
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+    - tk 8.6.13 noxft_h4845f30_101
+    - tzdata 2023c h71feb2d_0
+    - wheel 0.41.3 pyhd8ed1ab_0
+    - xxhash 0.8.0 h7f98852_3
+    - xz 5.2.6 h166bdaf_0
+    - zstd 1.5.5 hfc55251_0
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 h31becfc_5
+    - ca-certificates 2023.7.22 hcefe29a_0
+    - ld_impl_linux-aarch64 2.40 h2d8c526_0
+    - libffi 3.4.2 h3557bc0_5
+    - libgcc-ng 13.2.0 hf8544c7_2
+    - libgomp 13.2.0 hf8544c7_2
+    - libmambapy 1.5.3 py310h5938bc3_2
+    - libnsl 2.0.1 h31becfc_0
+    - libsqlite 3.44.0 h194ca79_0
+    - libuuid 2.38.1 hb4cce97_0
+    - libzlib 1.2.13 h31becfc_5
+    - ncurses 6.4 h0425590_2
+    - openssl 3.1.4 h31becfc_0
+    - pip 23.3.1 pyhd8ed1ab_0
+    - python 3.10.13 hbbe8eec_0_cpython
+    - readline 8.2 h8fc344f_1
+    - setuptools 68.2.2 pyhd8ed1ab_0
+    - tk 8.6.13 h194ca79_0
+    - tzdata 2023c h71feb2d_0
+    - wheel 0.41.3 pyhd8ed1ab_0
+    - xz 5.2.6 h9cdd2b7_0
+  run:
+    - conda >=23.9,<24
+    - libmambapy 1.5.3 py310h5938bc3_2
+    - openssl >=3.1.4,<4.0a0
+    - python >=3.10,<3.11.0a0
+    - python >=3.10,<3.11.0a0 *_cpython
+    - python_abi 3.10.* *_cp310
+test:
+  commands:
+    - mamba --help
+    - test -f ${PREFIX}/etc/profile.d/mamba.sh
+    - mamba create -n test_py2 python=2.7 --dry-run
+    - python -c "import mamba._version; assert mamba._version.__version__ == '1.5.3'"
+    - test -f ${PREFIX}/condabin/mamba
+  imports:
+    - mamba
+  requires:
+    - pip
+about:
+  description: '
+
+    [![Build Status](https://github.com/mamba-org/mamba/workflows/CI/badge.svg)](https://github.com/mamba-org/mamba/actions)
+
+    [![Join the Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mamba-org/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+    [![docs](https://readthedocs.org/projects/mamba/badge/?version=latest&style=flat)](https://mamba.readthedocs.io/en/latest)
+
+
+    `mamba` is a reimplementation of the conda package manager in C++.
+
+
+    - parallel downloading of repository data and package files using multi-threading
+
+    - libsolv for much faster dependency solving, a state of the art library used
+    in the RPM package manager of Red Hat, Fedora and OpenSUSE
+
+    - core parts of `mamba` are implemented in C++ for maximum efficiency
+
+
+    At the same time, `mamba` utilizes the same command line parser, package installation
+    and deinstallation code and transaction verification routines as `conda` to stay
+    as compatible as possible.
+
+
+    Mamba is part of a bigger ecosystem to make scientific packaging more sustainable.
+    You can read our [announcement blog post](https://medium.com/@QuantStack/open-software-packaging-for-science-61cecee7fc23).
+
+    The ecosystem also consists of `quetz`, an open source `conda` package server
+    and `boa`, a fast `conda` package builder.
+
+
+
+    Please refer to the [`mamba` and `micromamba` installation guide](https://mamba.readthedocs.io/en/latest/installation.html)
+    in the documentation.
+
+
+
+    `mamba` and `micromamba` come with features on top of stock `conda`.
+
+
+
+    To efficiently query repositories and query package dependencies you can use `mamba
+    repoquery` or `micromamba repoquery`.
+
+    See the [repoquery documentation](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery)
+    for details.
+
+
+
+    `micromamba` can be used to install lock files generated by [conda-lock](https://conda-incubator.github.io/conda-lock/)
+    without having to install `conda-lock`. Simply invoke e.g. `micromamba create
+    -n my-env -f conda-lock.yml` with an environment lockfile named `*-lock.yml` or
+    `*-lock.yaml`.
+
+    '
+  dev_url: https://github.com/mamba-org/mamba
+  home: https://github.com/mamba-org/mamba
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: A fast drop-in alternative to conda, using libsolv for dependency resolution
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20231110.3.1
+  recipe-maintainers:
+    - AntoinePrv
+    - JohanMabille
+    - SylvainCorlay
+    - adriendelsalle
+    - ericmjl
+    - wolfv
+  remote_url: https://github.com/conda-forge/mamba-feedstock
+  sha: e1cc284b915d745407a80eb7ac21befc86db71d0

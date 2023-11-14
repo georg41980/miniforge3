@@ -1,0 +1,11 @@
+{
+  "ctng_target_platform": "linux-aarch64",
+  "c_compiler_version": "11",
+  "ctng_cpu_arch": "aarch64",
+  "cxx_compiler_version": "11",
+  "c_compiler": "gcc",
+  "channel_targets": "conda-forge main",
+  "ctng_vendor": "conda_cos7",
+  "cxx_compiler": "gcc_bootstrap",
+  "target_platform": "linux-aarch64"
+}

@@ -1,0 +1,12 @@
+{
+  "arch": "aarch64",
+  "build": "h2b4548d_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "name": "libgomp",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1685829411811,
+  "version": "13.1.0"
+}

@@ -1,0 +1,21 @@
+{
+    "arch": "aarch64",
+    "build": "hb4cce97_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12"
+    ],
+    "fn": "libuuid-2.38.1-hb4cce97_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "000e30b09db0b7c775b21695dff30969",
+    "name": "libuuid",
+    "platform": "linux",
+    "sha256": "616277b0c5f7616c2cdf36f6c316ea3f9aa5bb35f2d4476a349ab58b9b91675f",
+    "size": 35720,
+    "subdir": "linux-aarch64",
+    "timestamp": 1680113474501,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libuuid-2.38.1-hb4cce97_0.conda",
+    "version": "2.38.1"
+}

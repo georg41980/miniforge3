@@ -1,0 +1,21 @@
+{
+    "arch": "aarch64",
+    "build": "h516909a_1000",
+    "build_number": 1000,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=7.5.0"
+    ],
+    "fn": "lzo-2.10-h516909a_1000.tar.bz2",
+    "license": "GPL v2+",
+    "license_family": "GPL2",
+    "md5": "ef5661339990c399c68c71cfb341e6d7",
+    "name": "lzo",
+    "platform": "linux",
+    "sha256": "d322607e1b113a3fdaf949872e6fb3c43bc61bb8b698bd756e730c5f337e4c94",
+    "size": 282609,
+    "subdir": "linux-aarch64",
+    "timestamp": 1597682582723,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/lzo-2.10-h516909a_1000.tar.bz2",
+    "version": "2.10"
+}

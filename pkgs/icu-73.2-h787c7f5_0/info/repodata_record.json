@@ -1,0 +1,22 @@
+{
+    "arch": "aarch64",
+    "build": "h787c7f5_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12",
+        "libstdcxx-ng >=12"
+    ],
+    "fn": "icu-73.2-h787c7f5_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "9d3c29d71f28452a2e843aff8cbe09d2",
+    "name": "icu",
+    "platform": "linux",
+    "sha256": "aedb9c911ede5596c87e1abd763ed940fab680d71fdb953bce8e4094119d47b3",
+    "size": 12237094,
+    "subdir": "linux-aarch64",
+    "timestamp": 1692900632394,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/icu-73.2-h787c7f5_0.conda",
+    "version": "73.2"
+}

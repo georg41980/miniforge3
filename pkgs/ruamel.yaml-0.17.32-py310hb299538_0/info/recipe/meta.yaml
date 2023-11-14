@@ -1,0 +1,113 @@
+# This file created by conda-build 3.24.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sat Jun 17 09:23:21 2023
+# ------------------------------------------------
+
+package:
+  name: ruamel.yaml
+  version: 0.17.32
+source:
+  sha256: ec939063761914e14542972a5cba6d33c23b0859ab6342f61cf070cfc600efc2
+  url: https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.17.32.tar.gz
+build:
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/ruamel.yaml_1686993905870/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+    -m pip install . --no-deps -vv
+  string: py310hb299538_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - binutils_impl_linux-64 2.40 hf600244_0
+    - binutils_impl_linux-aarch64 2.40 h40ea8b1_0
+    - binutils_linux-aarch64 2.40 h19b5abf_0
+    - bzip2 1.0.8 h7f98852_4
+    - ca-certificates 2023.5.7 hbcca054_0
+    - cross-python_linux-aarch64 3.10 40_cpython
+    - crossenv 1.4.0 pyhd8ed1ab_0
+    - gcc_impl_linux-64 12.3.0 he2b93b0_0
+    - gcc_impl_linux-aarch64 12.3.0 hfb0b921_0
+    - gcc_linux-aarch64 12.3.0 hd570763_0
+    - kernel-headers_linux-64 2.6.32 he073ed8_15
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - ld_impl_linux-aarch64 2.40 hc365e21_0
+    - libffi 3.4.2 h7f98852_5
+    - libgcc-devel_linux-64 12.3.0 h8bca6fd_0
+    - libgcc-devel_linux-aarch64 12.3.0 h1a07b91_0
+    - libgcc-ng 13.1.0 he5830b7_0
+    - libgomp 13.1.0 he5830b7_0
+    - libiconv 1.17 h166bdaf_0
+    - libnsl 2.0.0 h7f98852_0
+    - libsanitizer 12.3.0 h0f45ef3_0
+    - libsqlite 3.42.0 h2797004_0
+    - libstdcxx-ng 13.1.0 hfd8a6a1_0
+    - libuuid 2.38.1 h0b41bf4_0
+    - libzlib 1.2.13 hd590300_5
+    - lz4-c 1.9.4 hcb278e6_0
+    - ncurses 6.4 hcb278e6_0
+    - openssl 3.1.1 hd590300_1
+    - popt 1.16 h0b475e3_2002
+    - python 3.10.11 he550d4f_0_cpython
+    - readline 8.2 h8228510_1
+    - rsync 3.2.7 h70740c4_0
+    - sed 4.8 he412f7d_0
+    - sysroot_linux-64 2.12 he073ed8_15
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+    - tk 8.6.12 h27826a3_0
+    - tzdata 2023c h71feb2d_0
+    - xxhash 0.8.0 h7f98852_3
+    - xz 5.2.6 h166bdaf_0
+    - zstd 1.5.2 h3eb15da_6
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 hf897c2e_4
+    - ca-certificates 2023.5.7 hcefe29a_0
+    - ld_impl_linux-aarch64 2.40 h2d8c526_0
+    - libffi 3.4.2 h3557bc0_5
+    - libgcc-ng 13.1.0 h2b4548d_0
+    - libgomp 13.1.0 h2b4548d_0
+    - libnsl 2.0.0 hf897c2e_0
+    - libsqlite 3.42.0 h194ca79_0
+    - libuuid 2.38.1 hb4cce97_0
+    - libzlib 1.2.13 h31becfc_5
+    - ncurses 6.4 h2e1726e_0
+    - openssl 3.1.1 h31becfc_1
+    - pip 23.1.2 pyhd8ed1ab_0
+    - python 3.10.11 ha43d526_0_cpython
+    - python_abi 3.10 3_cp310
+    - readline 8.2 h8fc344f_1
+    - ruamel 1.0 py310h4c7bcd0_7
+    - setuptools 67.7.2 pyhd8ed1ab_0
+    - tk 8.6.12 hd8af866_0
+    - tzdata 2023c h71feb2d_0
+    - wheel 0.40.0 pyhd8ed1ab_0
+    - xz 5.2.6 h9cdd2b7_0
+  run:
+    - libgcc-ng >=12
+    - python >=3.10,<3.11.0a0
+    - python >=3.10,<3.11.0a0 *_cpython
+    - python_abi 3.10.* *_cp310
+    - ruamel.yaml.clib >=0.1.2
+    - setuptools
+test:
+  imports:
+    - ruamel.yaml
+about:
+  home: https://sourceforge.net/p/ruamel-yaml
+  license: MIT
+  license_file: LICENSE
+  summary: A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML
+    3.11 which supports YAML1.1
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - davidbrochart
+    - jakirkham
+    - mbargull
+    - mwcraig
+    - ocefpaf
+    - pelson
+    - xhochy

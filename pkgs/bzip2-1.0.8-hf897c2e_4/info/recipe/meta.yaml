@@ -1,0 +1,82 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# /drone/src/recipe, last modified Sat Nov 28 23:37:32 2020
+# ------------------------------------------------
+
+package:
+    name: bzip2
+    version: 1.0.8
+source:
+    patches:
+        - 0001-cross.patch
+    sha256: ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269
+    url: https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
+build:
+    number: '4'
+    run_exports:
+        - bzip2 >=1.0.8,<2.0a0
+    string: hf897c2e_4
+requirements:
+    build:
+        - _openmp_mutex 4.5 1_gnu
+        - binutils_impl_linux-aarch64 2.35.1 h339fa7d_0
+        - binutils_linux-aarch64 2.35 h0a73b0c_29
+        - gcc_impl_linux-aarch64 9.3.0 h5b547fa_17
+        - gcc_linux-aarch64 9.3.0 h3f8fa26_29
+        - kernel-headers_linux-aarch64 4.18.0 hca5cc2b_10
+        - ld_impl_linux-aarch64 2.35.1 h36823c2_0
+        - libgcc-devel_linux-aarch64 9.3.0 h2e979a9_17
+        - libgcc-ng 9.3.0 h8ab15db_17
+        - libgomp 9.3.0 h8ab15db_17
+        - libstdcxx-ng 9.3.0 h7a64470_17
+        - make 4.3 h309ac5b_1
+        - sysroot_linux-aarch64 2.17 h4744778_10
+    host:
+        - _openmp_mutex 4.5 1_gnu
+        - libgcc-ng 9.3.0 h8ab15db_17
+        - libgomp 9.3.0 h8ab15db_17
+    run:
+        - libgcc-ng >=9.3.0
+test:
+    commands:
+        - bzip2 --help
+        - test -f ${PREFIX}/bin/bunzip2
+        - test -f ${PREFIX}/bin/bzcat
+        - test -f ${PREFIX}/bin/bzcmp
+        - test -f ${PREFIX}/bin/bzdiff
+        - test -f ${PREFIX}/bin/bzegrep
+        - test -f ${PREFIX}/bin/bzfgrep
+        - test -f ${PREFIX}/bin/bzgrep
+        - test -f ${PREFIX}/bin/bzip2recover
+        - test -f ${PREFIX}/bin/bzip2
+        - test -f ${PREFIX}/bin/bzless
+        - test -f ${PREFIX}/bin/bzmore
+        - test -f ${PREFIX}/include/bzlib.h
+        - test -f ${PREFIX}/lib/libbz2.a
+        - test -f ${PREFIX}/lib/libbz2.so
+about:
+    description: 'Bzip2 is a freely available high-quality data compressor. It typically
+
+        compresses files to within 10% to 15% of the best available techniques,
+
+        whilst being around twice as fast at compression and six times faster
+
+        at decompression.
+
+        '
+    doc_url: http://www.bzip.org/docs.html
+    home: http://www.bzip.org/
+    license: bzip2-1.0.6
+    license_family: BSD
+    license_file: LICENSE
+    summary: high-quality data compressor
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - jlanga
+        - mingwandroid
+        - msarahan
+        - pelson

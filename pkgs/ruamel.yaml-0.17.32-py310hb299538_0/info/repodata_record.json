@@ -1,0 +1,26 @@
+{
+    "arch": "aarch64",
+    "build": "py310hb299538_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12",
+        "python >=3.10,<3.11.0a0",
+        "python >=3.10,<3.11.0a0 *_cpython",
+        "python_abi 3.10.* *_cp310",
+        "ruamel.yaml.clib >=0.1.2",
+        "setuptools"
+    ],
+    "fn": "ruamel.yaml-0.17.32-py310hb299538_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "2e7d1ec9009118bd944f229bfbb64a02",
+    "name": "ruamel.yaml",
+    "platform": "linux",
+    "sha256": "bff30bf5243e6aabb8a4f896a16acc703018a67161343a92ddb6b66e0ba9eb47",
+    "size": 203329,
+    "subdir": "linux-aarch64",
+    "timestamp": 1686994122178,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/ruamel.yaml-0.17.32-py310hb299538_0.conda",
+    "version": "0.17.32"
+}

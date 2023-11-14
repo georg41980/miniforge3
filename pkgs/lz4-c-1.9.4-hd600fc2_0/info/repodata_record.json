@@ -1,0 +1,22 @@
+{
+    "arch": "aarch64",
+    "build": "hd600fc2_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12",
+        "libstdcxx-ng >=12"
+    ],
+    "fn": "lz4-c-1.9.4-hd600fc2_0.conda",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "500145a83ed07ce79c8cef24252f366b",
+    "name": "lz4-c",
+    "platform": "linux",
+    "sha256": "076870eb72411f41c46598c7582a2f3f42ba94c526a2d60a0c8f70a0a7a64429",
+    "size": 163770,
+    "subdir": "linux-aarch64",
+    "timestamp": 1674727020254,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/lz4-c-1.9.4-hd600fc2_0.conda",
+    "version": "1.9.4"
+}

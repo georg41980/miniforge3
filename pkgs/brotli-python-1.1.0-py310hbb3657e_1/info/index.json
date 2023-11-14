@@ -1,0 +1,21 @@
+{
+  "arch": "aarch64",
+  "build": "py310hbb3657e_1",
+  "build_number": 1,
+  "constrains": [
+    "libbrotlicommon 1.1.0 h31becfc_1"
+  ],
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "license": "MIT",
+  "name": "brotli-python",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1695990521531,
+  "version": "1.1.0"
+}

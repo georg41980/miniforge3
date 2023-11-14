@@ -1,0 +1,58 @@
+# This file created by conda-build 3.25.0
+# ------------------------------------------------
+
+package:
+  name: libgomp
+  version: 13.2.0
+source:
+  - patches:
+      - patches/0021-Hardcode-HAVE_ALIGNED_ALLOC-1-in-libstdc-v3-configur.patch
+      - patches/libgomp-support-environ-null.patch
+      - patches/new-allow-commands-in-main-specfile.patch
+    sha256: 8cb4be3796651976f94b9356fa08d833524f62420d6292c5033a9a26af315078
+    url: https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/gcc-13.2.0.tar.gz
+build:
+  detect_binary_files_with_prefix: false
+  ignore_run_exports:
+    - __glibc
+  missing_dso_whitelist:
+    - '*'
+  number: 3
+  run_exports:
+    strong:
+      - _openmp_mutex >=4.5
+  string: hf8544c7_3
+requirements:
+  build:
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - binutils_impl_linux-aarch64 2.39 h57c828d_1
+    - gcc_bootstrap_linux-64 13.2.0 h4dbdac4_2
+    - gcc_impl_linux-aarch64 13.2.0.*
+    - gfortran_impl_linux-aarch64 13.2.0.*
+    - gxx_impl_linux-aarch64 13.2.0.*
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-aarch64 2.39 hc438fd5_1
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+  host:
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+  run: []
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libgomp.so.1.0.0
+    - test ! -f ${PREFIX}/lib/libgomp.so.1
+  requires:
+    - sysroot_linux-aarch64
+about:
+  home: https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  summary: The GCC OpenMP implementation.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - beckermr
+    - isuruf
+    - timsnyder
+    - xhochy

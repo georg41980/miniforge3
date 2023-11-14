@@ -1,0 +1,29 @@
+{
+    "arch": "aarch64",
+    "build": "py310h468e293_0",
+    "build_number": 0,
+    "build_string": "py310h468e293_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+    "constrains": [],
+    "depends": [
+        "cffi >=1.11",
+        "libgcc-ng >=12",
+        "python >=3.10,<3.11.0a0",
+        "python >=3.10,<3.11.0a0 *_cpython",
+        "python_abi 3.10.* *_cp310",
+        "zstd >=1.5.5,<1.5.6.0a0",
+        "zstd >=1.5.5,<1.6.0a0"
+    ],
+    "fn": "zstandard-0.22.0-py310h468e293_0.conda",
+    "license": "BSD-3-Clause",
+    "md5": "1823d9c30b74c7d81e263f3ad310b62d",
+    "name": "zstandard",
+    "platform": "linux",
+    "sha256": "cdcd4a74def57bd6ba6306646e44da5e85816b6b8013c62bdd572a3f11f46d31",
+    "size": 379463,
+    "subdir": "linux-aarch64",
+    "timestamp": 1698830368600,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/zstandard-0.22.0-py310h468e293_0.conda",
+    "version": "0.22.0"
+}

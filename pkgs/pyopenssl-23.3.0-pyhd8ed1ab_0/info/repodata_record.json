@@ -1,0 +1,26 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "build_string": "pyhd8ed1ab_0",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "cryptography >=41.0.5,<42",
+        "python >=3.7"
+    ],
+    "fn": "pyopenssl-23.3.0-pyhd8ed1ab_0.conda",
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "7819533e674dbbc51468f3228b9b1bb6",
+    "name": "pyopenssl",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "f7e04c4a49b1593140231d70801e2204e314e26d7141bfbdc8089d04114c0010",
+    "size": 127052,
+    "subdir": "noarch",
+    "timestamp": 1698795615331,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/pyopenssl-23.3.0-pyhd8ed1ab_0.conda",
+    "version": "23.3.0"
+}

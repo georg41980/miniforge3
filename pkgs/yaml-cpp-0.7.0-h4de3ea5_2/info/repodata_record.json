@@ -1,0 +1,22 @@
+{
+    "arch": "aarch64",
+    "build": "h4de3ea5_2",
+    "build_number": 2,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12",
+        "libstdcxx-ng >=12"
+    ],
+    "fn": "yaml-cpp-0.7.0-h4de3ea5_2.tar.bz2",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "87d60487be313187187affcf70d32b29",
+    "name": "yaml-cpp",
+    "platform": "linux",
+    "sha256": "a4182864534a818fd07f908a4ef8f54076136339c392b0b9f6c0ff969f54beb0",
+    "size": 210843,
+    "subdir": "linux-aarch64",
+    "timestamp": 1664345767044,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/yaml-cpp-0.7.0-h4de3ea5_2.tar.bz2",
+    "version": "0.7.0"
+}

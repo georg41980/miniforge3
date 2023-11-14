@@ -1,0 +1,14 @@
+{
+  "arch": "aarch64",
+  "build": "hb4cce97_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=12"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "libuuid",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1680113474501,
+  "version": "2.38.1"
+}

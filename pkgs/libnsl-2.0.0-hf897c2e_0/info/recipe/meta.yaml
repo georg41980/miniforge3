@@ -1,0 +1,59 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /drone/src/recipe, last modified Tue Oct  5 21:45:32 2021
+# ------------------------------------------------
+
+package:
+  name: libnsl
+  version: 2.0.0
+source:
+  sha256: 2da075ef1893ebdfc5f074f83ac811873dc06fd5c62bc9a4729fd2e27a40341a
+  url: https://github.com/thkukuk/libnsl/releases/download/v2.0.0/libnsl-2.0.0.tar.xz
+build:
+  number: '0'
+  run_exports:
+    - libnsl >=2.0.0,<2.1.0a0
+  string: hf897c2e_0
+requirements:
+  build:
+    - _openmp_mutex 4.5 1_gnu
+    - autoconf 2.69 pl5320hfd2af3c_10
+    - binutils_impl_linux-aarch64 2.36.1 h026399b_2
+    - binutils_linux-aarch64 2.36 h7854541_1
+    - gcc_impl_linux-aarch64 9.4.0 h603953f_9
+    - gcc_linux-aarch64 9.4.0 h9fa865e_1
+    - gnuconfig 2020.11.07 hd8ed1ab_0
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_12
+    - ld_impl_linux-aarch64 2.36.1 h02ad14f_2
+    - libgcc-devel_linux-aarch64 9.4.0 h85f5abf_9
+    - libgcc-ng 11.2.0 hf1cc4e7_9
+    - libgomp 11.2.0 hf1cc4e7_9
+    - libsanitizer 9.4.0 h4d00405_9
+    - libstdcxx-ng 11.2.0 h0d0a5bb_9
+    - libtool 2.4.6 h01db608_1008
+    - m4 1.4.18 h516909a_1001
+    - make 4.3 h309ac5b_1
+    - perl 5.32.1 0_hf897c2e_perl5
+    - pkg-config 0.29.2 hb9de7d4_1008
+    - sysroot_linux-aarch64 2.17 h43d7e78_12
+  host:
+    - _openmp_mutex 4.5 1_gnu
+    - libgcc-ng 11.2.0 hf1cc4e7_9
+    - libgomp 11.2.0 hf1cc4e7_9
+  run:
+    - libgcc-ng >=9.4.0
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libnsl.so
+about:
+  home: https://github.com/thkukuk/libnsl
+  license: GPL-2.0-only
+  license_family: GPL
+  license_file: COPYING
+  summary: Public client interface library for NIS(YP)
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - isuruf
+    - izahn

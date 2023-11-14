@@ -1,0 +1,20 @@
+{
+  "arch": "aarch64",
+  "build": "py310hcbdc16a_2",
+  "build_number": 2,
+  "depends": [
+    "conda >=23.9,<24",
+    "libmambapy 1.5.3 py310h5938bc3_2",
+    "openssl >=3.1.4,<4.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "mamba",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1699609123551,
+  "version": "1.5.3"
+}

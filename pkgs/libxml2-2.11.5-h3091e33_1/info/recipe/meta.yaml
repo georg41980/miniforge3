@@ -1,0 +1,95 @@
+# This file created by conda-build 3.25.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Aug 25 10:40:31 2023
+# ------------------------------------------------
+
+package:
+  name: libxml2
+  version: 2.11.5
+source:
+  patches:
+    - 0002-Make-and-install-a-pkg-config-file-on-Windows.patch
+  sha256: 9d9c1026c818c1dadc81d54cc2839cd69c632590f3dcd9b2dc9ef4a136295af1
+  url: https://gitlab.gnome.org/GNOME/libxml2/-/archive/v2.11.5/libxml2-v2.11.5.tar.gz
+build:
+  number: '1'
+  run_exports:
+    - libxml2 >=2.11.5,<2.12.0a0
+  string: h3091e33_1
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - autoconf 2.71 pl5321h2b4cb7a_1
+    - automake 1.16.5 pl5321ha770c72_0
+    - binutils_impl_linux-64 2.40 hf600244_0
+    - binutils_impl_linux-aarch64 2.40 h40ea8b1_0
+    - binutils_linux-aarch64 2.40 h19b5abf_1
+    - gcc_impl_linux-64 12.3.0 he2b93b0_0
+    - gcc_impl_linux-aarch64 12.3.0 hfb0b921_0
+    - gcc_linux-aarch64 12.3.0 hd570763_1
+    - kernel-headers_linux-64 2.6.32 he073ed8_16
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - ld_impl_linux-aarch64 2.40 hc365e21_0
+    - libgcc-devel_linux-64 12.3.0 h8bca6fd_0
+    - libgcc-devel_linux-aarch64 12.3.0 h1a07b91_0
+    - libgcc-ng 13.1.0 he5830b7_0
+    - libgomp 13.1.0 he5830b7_0
+    - libiconv 1.17 h166bdaf_0
+    - libnsl 2.0.0 h7f98852_0
+    - libsanitizer 12.3.0 h0f45ef3_0
+    - libstdcxx-ng 13.1.0 hfd8a6a1_0
+    - libtool 2.4.7 h27087fc_0
+    - m4 1.4.18 h516909a_1001
+    - make 4.3 hd18ef5c_1
+    - perl 5.32.1 4_hd590300_perl5
+    - pkg-config 0.29.2 h36c2ea0_1008
+    - sysroot_linux-64 2.12 he073ed8_16
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - icu 73.2 h787c7f5_0
+    - libgcc-ng 13.1.0 h2b4548d_0
+    - libgomp 13.1.0 h2b4548d_0
+    - libiconv 1.17 h9cdd2b7_0
+    - libstdcxx-ng 13.1.0 h452befe_0
+    - libzlib 1.2.13 h31becfc_5
+    - xz 5.2.6 h9cdd2b7_0
+    - zlib 1.2.13 h31becfc_5
+  run:
+    - icu >=73.2,<74.0a0
+    - libgcc-ng >=12
+    - libiconv >=1.17,<2.0a0
+    - libzlib >=1.2.13,<1.3.0a0
+    - xz >=5.2.6,<6.0a0
+test:
+  commands:
+    - xmllint test.xml
+  files:
+    - test.xml
+about:
+  description: 'Though libxml2 is written in C a variety of language
+
+    bindings make it available in other environments.
+
+    '
+  dev_url: https://git.gnome.org/browse/libxml2/
+  doc_source_url: https://github.com/GNOME/libxml2/blob/master/doc/index.html
+  doc_url: http://xmlsoft.org/html/index.html
+  home: http://xmlsoft.org/
+  license: MIT
+  license_family: MIT
+  license_file: Copyright
+  summary: The XML C parser and toolkit of Gnome
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - gillins
+    - jakirkham
+    - jschueller
+    - msarahan
+    - ocefpaf
+    - scopatz

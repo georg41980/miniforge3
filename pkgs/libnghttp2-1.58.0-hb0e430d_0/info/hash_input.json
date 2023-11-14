@@ -1,0 +1,12 @@
+{
+  "c_compiler_version": "12",
+  "libev": "4.33",
+  "channel_targets": "conda-forge main",
+  "openssl": "3",
+  "c_compiler": "gcc",
+  "cxx_compiler": "gxx",
+  "c_ares": "1",
+  "cxx_compiler_version": "12",
+  "target_platform": "linux-aarch64",
+  "zlib": "1.2"
+}

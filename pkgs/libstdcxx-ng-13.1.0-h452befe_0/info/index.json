@@ -1,0 +1,12 @@
+{
+  "arch": "aarch64",
+  "build": "h452befe_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "name": "libstdcxx-ng",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1685829533373,
+  "version": "13.1.0"
+}

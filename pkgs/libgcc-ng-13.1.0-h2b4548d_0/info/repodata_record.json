@@ -1,0 +1,24 @@
+{
+    "arch": "aarch64",
+    "build": "h2b4548d_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "constrains": [
+        "libgomp 13.1.0 h2b4548d_0"
+    ],
+    "depends": [
+        "_openmp_mutex >=4.5"
+    ],
+    "fn": "libgcc-ng-13.1.0-h2b4548d_0.conda",
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "license_family": "GPL",
+    "md5": "02619409d02932e28d694144b509597d",
+    "name": "libgcc-ng",
+    "platform": "linux",
+    "sha256": "fe4026b311e88949bc1ebc7bfd2e0731817caadf39cb7d1b7508b2bdb75ba8e4",
+    "size": 457129,
+    "subdir": "linux-aarch64",
+    "timestamp": 1685829492034,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libgcc-ng-13.1.0-h2b4548d_0.conda",
+    "version": "13.1.0"
+}

@@ -1,0 +1,11 @@
+{
+  "spdlog": "1.11",
+  "libcurl": "7",
+  "cxx_compiler": "gxx",
+  "cxx_compiler_version": "11",
+  "target_platform": "linux-aarch64",
+  "libarchive": "3.6",
+  "openssl": "3",
+  "fmt": "9",
+  "channel_targets": "conda-forge main"
+}

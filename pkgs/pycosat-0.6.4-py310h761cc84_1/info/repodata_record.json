@@ -1,0 +1,24 @@
+{
+    "arch": "aarch64",
+    "build": "py310h761cc84_1",
+    "build_number": 1,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12",
+        "python >=3.10,<3.11.0a0",
+        "python >=3.10,<3.11.0a0 *_cpython",
+        "python_abi 3.10.* *_cp310"
+    ],
+    "fn": "pycosat-0.6.4-py310h761cc84_1.tar.bz2",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "c701cff6d6e7907c93ab603e58082a7c",
+    "name": "pycosat",
+    "platform": "linux",
+    "sha256": "338724a003d086a79582527fa7cdb48ae6df02a213c127add7f2dd111553b20c",
+    "size": 111762,
+    "subdir": "linux-aarch64",
+    "timestamp": 1666836887941,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/pycosat-0.6.4-py310h761cc84_1.tar.bz2",
+    "version": "0.6.4"
+}

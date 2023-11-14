@@ -1,0 +1,22 @@
+{
+    "arch": "aarch64",
+    "build": "hdd96247_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12",
+        "libstdcxx-ng >=12"
+    ],
+    "fn": "fmt-9.1.0-hdd96247_0.tar.bz2",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "9250db7b71768a227b5fb9e075b5e53b",
+    "name": "fmt",
+    "platform": "linux",
+    "sha256": "b23d984dad12bf0f8c47a2f82e0c5de881c790a272505e216bfcd8679e66459d",
+    "size": 190092,
+    "subdir": "linux-aarch64",
+    "timestamp": 1661661160196,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/fmt-9.1.0-hdd96247_0.tar.bz2",
+    "version": "9.1.0"
+}

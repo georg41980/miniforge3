@@ -1,0 +1,12 @@
+{
+  "arch": "aarch64",
+  "build": "hcefe29a_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "ISC",
+  "name": "ca-certificates",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1690026879008,
+  "version": "2023.7.22"
+}

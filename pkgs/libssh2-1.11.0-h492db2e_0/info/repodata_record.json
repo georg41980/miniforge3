@@ -1,0 +1,23 @@
+{
+    "arch": "aarch64",
+    "build": "h492db2e_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12",
+        "libzlib >=1.2.13,<1.3.0a0",
+        "openssl >=3.1.1,<4.0a0"
+    ],
+    "fn": "libssh2-1.11.0-h492db2e_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "45532845e121677ad328c9af9953f161",
+    "name": "libssh2",
+    "platform": "linux",
+    "sha256": "409163dd4a888b9266369f1bce57b5ca56c216e34249637c3e10eb404e356171",
+    "size": 284335,
+    "subdir": "linux-aarch64",
+    "timestamp": 1685837600415,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libssh2-1.11.0-h492db2e_0.conda",
+    "version": "1.11.0"
+}

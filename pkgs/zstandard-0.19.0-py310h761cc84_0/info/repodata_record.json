@@ -1,0 +1,25 @@
+{
+    "arch": "aarch64",
+    "build": "py310h761cc84_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "cffi >=1.8",
+        "libgcc-ng >=12",
+        "python >=3.10,<3.11.0a0",
+        "python >=3.10,<3.11.0a0 *_cpython",
+        "python_abi 3.10.* *_cp310"
+    ],
+    "fn": "zstandard-0.19.0-py310h761cc84_0.tar.bz2",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "328e619cfbc149b7713689ecf10cde2c",
+    "name": "zstandard",
+    "platform": "linux",
+    "sha256": "d285afaf42dd91975f4f506fc6b24348357be579ce4178d9a4bfafa8020f0495",
+    "size": 725687,
+    "subdir": "linux-aarch64",
+    "timestamp": 1667296370221,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/zstandard-0.19.0-py310h761cc84_0.tar.bz2",
+    "version": "0.19.0"
+}

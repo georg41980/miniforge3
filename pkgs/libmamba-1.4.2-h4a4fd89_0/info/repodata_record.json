@@ -1,0 +1,29 @@
+{
+    "arch": "aarch64",
+    "build": "h4a4fd89_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "fmt >=9.1.0,<10.0a0",
+        "libarchive >=3.6.2,<3.7.0a0",
+        "libcurl >=7.88.1,<9.0a0",
+        "libgcc-ng >=12",
+        "libsolv >=0.7.23,<0.8.0a0",
+        "libstdcxx-ng >=12",
+        "openssl >=3.1.0,<4.0a0",
+        "reproc-cpp >=14.2,<15.0a0",
+        "yaml-cpp >=0.7.0,<0.8.0a0"
+    ],
+    "fn": "libmamba-1.4.2-h4a4fd89_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "75d654bb24804a39788ed8c1dc863d71",
+    "name": "libmamba",
+    "platform": "linux",
+    "sha256": "02f4d295768f8e7ef104a33c591935b99ffbca0ba109be9ca013fe80487ac7ae",
+    "size": 1603552,
+    "subdir": "linux-aarch64",
+    "timestamp": 1680791858211,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libmamba-1.4.2-h4a4fd89_0.conda",
+    "version": "1.4.2"
+}

@@ -1,0 +1,14 @@
+{
+  "arch": "aarch64",
+  "build": "h9cdd2b7_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=12"
+  ],
+  "license": "LGPL-2.1 and GPL-2.0",
+  "name": "xz",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1660348056328,
+  "version": "5.2.6"
+}

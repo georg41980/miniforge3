@@ -1,0 +1,22 @@
+{
+    "arch": "aarch64",
+    "build": "he28a2e2_2",
+    "build_number": 2,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=7.5.0",
+        "ncurses >=6.2,<7.0.0a0"
+    ],
+    "fn": "libedit-3.1.20191231-he28a2e2_2.tar.bz2",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "29371161d77933a54fccf1bb66b96529",
+    "name": "libedit",
+    "platform": "linux",
+    "sha256": "debc31fb2f07ba2b0363f90e455873670734082822926ba4a9556431ec0bf36d",
+    "size": 134104,
+    "subdir": "linux-aarch64",
+    "timestamp": 1597617110769,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libedit-3.1.20191231-he28a2e2_2.tar.bz2",
+    "version": "3.1.20191231"
+}

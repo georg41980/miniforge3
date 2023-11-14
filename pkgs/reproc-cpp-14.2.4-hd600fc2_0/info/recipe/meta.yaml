@@ -1,0 +1,83 @@
+# This file created by conda-build 3.23.3
+# ------------------------------------------------
+
+package:
+  name: reproc-cpp
+  version: 14.2.4
+source:
+  - patches: null
+    sha256: 55c780f7faa5c8cabd83ebbb84b68e5e0e09732de70a129f6b3c801e905415dd
+    url: https://github.com/DaanDeMeyer/reproc/archive/v14.2.4.tar.gz
+build:
+  number: 0
+  run_exports:
+    - reproc-cpp >=14.2,<15.0a0
+  string: hd600fc2_0
+requirements:
+  build:
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-aarch64 2.39 h48546ad_1
+    - binutils_linux-aarch64 2.39 h489c705_11
+    - bzip2 1.0.8 hf897c2e_4
+    - c-ares 1.18.1 hf897c2e_0
+    - ca-certificates 2022.12.7 h4fd8a4c_0
+    - cmake 3.25.1 hc6ca916_0
+    - expat 2.5.0 ha18d298_0
+    - gcc_impl_linux-aarch64 11.3.0 h771ed3b_19
+    - gcc_linux-aarch64 11.3.0 h2cafa97_11
+    - gxx_impl_linux-aarch64 11.3.0 h771ed3b_19
+    - gxx_linux-aarch64 11.3.0 h7ccc656_11
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - keyutils 1.6.1 h4e544f5_0
+    - krb5 1.20.1 h113d92e_0
+    - ld_impl_linux-aarch64 2.39 h16cd69b_1
+    - libcurl 7.87.0 h6ad7c7a_0
+    - libedit 3.1.20191231 he28a2e2_2
+    - libev 4.33 h516909a_1
+    - libgcc-devel_linux-aarch64 11.3.0 h02014c4_19
+    - libgcc-ng 12.2.0 h607ecd0_19
+    - libgomp 12.2.0 h607ecd0_19
+    - libnghttp2 1.47.0 h674c3cc_1
+    - libsanitizer 11.3.0 hdddb281_19
+    - libssh2 1.10.0 he5a64b1_3
+    - libstdcxx-devel_linux-aarch64 11.3.0 h02014c4_19
+    - libstdcxx-ng 12.2.0 hc13a102_19
+    - libuv 1.44.2 h4e544f5_0
+    - libzlib 1.2.13 h4e544f5_4
+    - make 4.3 h309ac5b_1
+    - ncurses 6.3 headf329_1
+    - openssl 3.0.7 hb4cce97_1
+    - rhash 1.4.3 h4e544f5_0
+    - sysroot_linux-aarch64 2.17 h43d7e78_13
+    - xz 5.2.6 h9cdd2b7_0
+    - zlib 1.2.13 h4e544f5_4
+    - zstd 1.5.2 hc1e27d5_4
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc-ng 12.2.0 h607ecd0_19
+    - libgomp 12.2.0 h607ecd0_19
+    - libstdcxx-ng 12.2.0 hc13a102_19
+    - reproc 14.2.4 hb4cce97_0
+  run:
+    - libgcc-ng >=12
+    - libstdcxx-ng >=12
+    - reproc 14.2.4 hb4cce97_0
+test:
+  commands:
+    - test -f ${PREFIX}/include/reproc++/reproc.hpp
+    - test -f ${PREFIX}/lib/libreproc++${SHLIB_EXT}
+    - test -f ${PREFIX}/lib/cmake/reproc++/reproc++-config.cmake
+    - test ! -f ${PREFIX}/lib/libreproc++.a
+about:
+  dev_url: https://github.com/DaanDeMeyer/reproc
+  home: https://github.com/DaanDeMeyer/reproc
+  license: MIT
+  license_file: LICENSE
+  summary: reproc (Redirected Process) is a cross-platform C/C++ library that simplifies
+    starting, stopping and communicating with external programs.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - DaanDeMeyer
+    - wolfv

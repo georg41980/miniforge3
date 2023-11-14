@@ -1,0 +1,12 @@
+{
+  "cxx_compiler_version": "12",
+  "spdlog": "1.12",
+  "channel_targets": "conda-forge main",
+  "openssl": "3",
+  "pybind11_abi": "4",
+  "cxx_compiler": "gxx",
+  "python": "3.10.* *_cpython",
+  "fmt": "10",
+  "build_platform": "linux-64",
+  "target_platform": "linux-aarch64"
+}

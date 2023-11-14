@@ -1,0 +1,14 @@
+{
+  "zstd": "1.5",
+  "zlib": "1.2",
+  "lz4_c": "1.9.3",
+  "c_compiler": "gcc",
+  "c_compiler_version": "12",
+  "libxml2": "2.11",
+  "channel_targets": "conda-forge main",
+  "lzo": "2",
+  "openssl": "3",
+  "target_platform": "linux-aarch64",
+  "bzip2": "1",
+  "xz": "5"
+}

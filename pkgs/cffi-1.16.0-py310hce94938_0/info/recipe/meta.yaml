@@ -1,0 +1,99 @@
+# This file created by conda-build 3.25.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Sep 29 15:34:27 2023
+# ------------------------------------------------
+
+package:
+  name: cffi
+  version: 1.16.0
+source:
+  patches:
+    - 0001-Link-to-dl-library.patch
+    - 0002-setup-linux.patch
+  sha256: bcb3ef43e58665bbda2fb198698fcae6776483e0c4a631aa5647806c25e02cc0
+  url: https://pypi.io/packages/source/c/cffi/cffi-1.16.0.tar.gz
+build:
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/cffi_1696002023372/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+    -m pip install . -vv
+  string: py310hce94938_0
+requirements:
+  build:
+    - _openmp_mutex 4.5 2_gnu
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - binutils_impl_linux-aarch64 2.40 h870a726_0
+    - binutils_linux-aarch64 2.40 h94bbfa1_2
+    - gcc_impl_linux-aarch64 12.3.0 hcde2664_2
+    - gcc_linux-aarch64 12.3.0 h464a8f7_2
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-aarch64 2.40 h2d8c526_0
+    - libgcc-devel_linux-aarch64 12.3.0 h8b5ab12_2
+    - libgcc-ng 13.2.0 hf8544c7_2
+    - libgomp 13.2.0 hf8544c7_2
+    - libsanitizer 12.3.0 h8ebda82_2
+    - libstdcxx-ng 13.2.0 h9a76618_2
+    - patch 2.7.6 hf897c2e_1002
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 hf897c2e_4
+    - ca-certificates 2023.7.22 hcefe29a_0
+    - ld_impl_linux-aarch64 2.40 h2d8c526_0
+    - libffi 3.4.2 h3557bc0_5
+    - libgcc-ng 13.2.0 hf8544c7_2
+    - libgomp 13.2.0 hf8544c7_2
+    - libnsl 2.0.0 h31becfc_1
+    - libsqlite 3.43.0 h194ca79_0
+    - libuuid 2.38.1 hb4cce97_0
+    - libzlib 1.2.13 h31becfc_5
+    - ncurses 6.4 h2e1726e_0
+    - openssl 3.1.3 h31becfc_0
+    - pip 23.2.1 pyhd8ed1ab_0
+    - pycparser 2.21 pyhd8ed1ab_0
+    - python 3.10.12 hbbe8eec_0_cpython
+    - readline 8.2 h8fc344f_1
+    - setuptools 68.2.2 pyhd8ed1ab_0
+    - tk 8.6.13 h194ca79_0
+    - tzdata 2023c h71feb2d_0
+    - wheel 0.41.2 pyhd8ed1ab_0
+    - xz 5.2.6 h9cdd2b7_0
+  run:
+    - libffi >=3.4,<4.0a0
+    - libgcc-ng >=12
+    - pycparser
+    - python >=3.10,<3.11.0a0
+    - python_abi 3.10.* *_cp310
+test:
+  commands:
+    - pip check
+    - python -X faulthandler -c "from cffi import FFI; print(FFI().dlopen(None))"
+  imports:
+    - _cffi_backend
+    - cffi
+  requires:
+    - openssl *
+    - pip
+about:
+  description: 'Cffi aims to allow users to call C code from Python without having
+    to
+
+    learn a 3rd language. It provides a convenient and reliable way to call
+
+    compiled C code from Python using interface declarations written in C.
+
+    '
+  dev_url: https://bitbucket.org/cffi/cffi/overview
+  doc_source_url: https://bitbucket.org/cffi/cffi/src/default/doc/?at=default
+  doc_url: http://cffi.readthedocs.org
+  home: https://bitbucket.org/cffi/cffi
+  license: MIT
+  license_file: LICENSE
+  summary: Foreign Function Interface for Python calling C code.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - goanpeca
+    - katietz
+    - mingwandroid
+    - ocefpaf

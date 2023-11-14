@@ -1,0 +1,19 @@
+{
+    "arch": "aarch64",
+    "build": "h452befe_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [],
+    "fn": "libstdcxx-ng-13.1.0-h452befe_0.conda",
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "license_family": "GPL",
+    "md5": "572f5798bb3d4cc79650f0ca3149aeaa",
+    "name": "libstdcxx-ng",
+    "platform": "linux",
+    "sha256": "e85467c1df0a64953358c5daf33ca3298e893defb5a8b8edbcd0085ece77f8e4",
+    "size": 3755124,
+    "subdir": "linux-aarch64",
+    "timestamp": 1685829533373,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libstdcxx-ng-13.1.0-h452befe_0.conda",
+    "version": "13.1.0"
+}

@@ -1,0 +1,18 @@
+{
+  "arch": "aarch64",
+  "build": "py310hf0c4615_3",
+  "build_number": 3,
+  "depends": [
+    "libffi >=3.4,<4.0a0",
+    "libgcc-ng >=12",
+    "pycparser",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "license": "MIT",
+  "name": "cffi",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1671180221062,
+  "version": "1.15.1"
+}

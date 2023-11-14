@@ -1,0 +1,12 @@
+{
+  "c_compiler_version": "12",
+  "zlib": "1.2",
+  "BUILD": "aarch64-conda_cos7-linux-gnu",
+  "libiconv": "1",
+  "VERBOSE_AT": "V=1",
+  "icu": "73",
+  "xz": "5",
+  "target_platform": "linux-aarch64",
+  "c_compiler": "gcc",
+  "channel_targets": "conda-forge main"
+}

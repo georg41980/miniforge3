@@ -1,0 +1,17 @@
+{
+  "arch": "aarch64",
+  "build": "py310hb299538_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=12",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "license": "MIT",
+  "name": "pycosat",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1696355982591,
+  "version": "0.6.6"
+}

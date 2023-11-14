@@ -1,0 +1,27 @@
+{
+    "arch": "aarch64",
+    "build": "py310hce94938_0",
+    "build_number": 0,
+    "build_string": "py310hce94938_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+    "constrains": [],
+    "depends": [
+        "libffi >=3.4,<4.0a0",
+        "libgcc-ng >=12",
+        "pycparser",
+        "python >=3.10,<3.11.0a0",
+        "python_abi 3.10.* *_cp310"
+    ],
+    "fn": "cffi-1.16.0-py310hce94938_0.conda",
+    "license": "MIT",
+    "md5": "69f5188c0b23d70d99e1f4153fe498cd",
+    "name": "cffi",
+    "platform": "linux",
+    "sha256": "99d1333522c85fc4342988a4b070ab672ba248d4ebb7a9de42fbcee9d21980fe",
+    "size": 260773,
+    "subdir": "linux-aarch64",
+    "timestamp": 1696003162331,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/cffi-1.16.0-py310hce94938_0.conda",
+    "version": "1.16.0"
+}

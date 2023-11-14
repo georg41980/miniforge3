@@ -1,0 +1,21 @@
+{
+    "arch": "aarch64",
+    "build": "h516909a_1",
+    "build_number": 1,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=7.5.0"
+    ],
+    "fn": "libev-4.33-h516909a_1.tar.bz2",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "9eac5901791494108c9b9ab85ca8aa93",
+    "name": "libev",
+    "platform": "linux",
+    "sha256": "b9e8bcd26f0b0ded4c43232d55048bab910a4268197757f2368458759d9f3ef9",
+    "size": 105581,
+    "subdir": "linux-aarch64",
+    "timestamp": 1598868068767,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libev-4.33-h516909a_1.tar.bz2",
+    "version": "4.33"
+}

@@ -1,0 +1,28 @@
+{
+    "arch": "aarch64",
+    "build": "py310hb299538_0",
+    "build_number": 0,
+    "build_string": "py310hb299538_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+    "constrains": [],
+    "depends": [
+        "libgcc-ng >=12",
+        "python >=3.10,<3.11.0a0",
+        "python >=3.10,<3.11.0a0 *_cpython",
+        "python_abi 3.10.* *_cp310",
+        "ruamel.yaml.clib >=0.1.2",
+        "setuptools"
+    ],
+    "fn": "ruamel.yaml-0.18.5-py310hb299538_0.conda",
+    "license": "MIT",
+    "md5": "e0441fda712d4e3843d72ebffa466c87",
+    "name": "ruamel.yaml",
+    "platform": "linux",
+    "sha256": "fe6266bcc5b057c2cdeffdc19ee472bf1f05d330b1b33077fa1e1063e3845826",
+    "size": 203290,
+    "subdir": "linux-aarch64",
+    "timestamp": 1699007542951,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/ruamel.yaml-0.18.5-py310hb299538_0.conda",
+    "version": "0.18.5"
+}

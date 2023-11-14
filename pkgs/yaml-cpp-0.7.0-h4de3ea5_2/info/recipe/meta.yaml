@@ -1,0 +1,93 @@
+# This file created by conda-build 3.22.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Sep 28 06:14:05 2022
+# ------------------------------------------------
+
+package:
+  name: yaml-cpp
+  version: 0.7.0
+source:
+  patches:
+    - fix_empty_cmake_variable.patch
+    - pr_1064.patch
+  sha256: 43e6a9fcb146ad871515f0d0873947e5d497a1c9c60c58cb102a97b47208b7c3
+  url: https://github.com/jbeder/yaml-cpp/archive/yaml-cpp-0.7.0.tar.gz
+build:
+  number: '2'
+  run_exports:
+    - yaml-cpp >=0.7.0,<0.8.0a0
+  string: h4de3ea5_2
+requirements:
+  build:
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-aarch64 2.36.1 h026399b_2
+    - binutils_linux-aarch64 2.36 h7854541_10
+    - bzip2 1.0.8 hf897c2e_4
+    - c-ares 1.18.1 hf897c2e_0
+    - ca-certificates 2022.9.24 h4fd8a4c_0
+    - cmake 3.24.2 hcad14f8_0
+    - expat 2.4.9 ha18d298_0
+    - gcc_impl_linux-aarch64 10.4.0 hbc23e19_16
+    - gcc_linux-aarch64 10.4.0 h72ad2ee_10
+    - gxx_impl_linux-aarch64 10.4.0 hbc23e19_16
+    - gxx_linux-aarch64 10.4.0 hb08d869_10
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - keyutils 1.6.1 h4e544f5_0
+    - krb5 1.19.3 h750e270_0
+    - ld_impl_linux-aarch64 2.36.1 h02ad14f_2
+    - libcurl 7.83.1 h22f3f83_0
+    - libedit 3.1.20191231 he28a2e2_2
+    - libev 4.33 h516909a_1
+    - libgcc-devel_linux-aarch64 10.4.0 hf691355_16
+    - libgcc-ng 12.1.0 h3242a24_16
+    - libgomp 12.1.0 h3242a24_16
+    - libnghttp2 1.47.0 h674c3cc_1
+    - libsanitizer 10.4.0 h69a60c7_16
+    - libssh2 1.10.0 he5a64b1_3
+    - libstdcxx-devel_linux-aarch64 10.4.0 hf691355_16
+    - libstdcxx-ng 12.1.0 hd01590b_16
+    - libuv 1.44.2 h4e544f5_0
+    - libzlib 1.2.12 h4e544f5_3
+    - ncurses 6.3 headf329_1
+    - ninja 1.11.0 hdd96247_0
+    - openssl 3.0.5 h4e544f5_2
+    - rhash 1.4.3 h4e544f5_0
+    - sysroot_linux-aarch64 2.17 h43d7e78_13
+    - xz 5.2.6 h9cdd2b7_0
+    - zlib 1.2.12 h4e544f5_3
+    - zstd 1.5.2 hc1e27d5_4
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc-ng 12.1.0 h3242a24_16
+    - libgomp 12.1.0 h3242a24_16
+    - libstdcxx-ng 12.1.0 hd01590b_16
+  run:
+    - libgcc-ng >=12
+    - libstdcxx-ng >=12
+test:
+  commands:
+    - test -f $PREFIX/lib/libyaml-cpp.so
+  files:
+    - test
+  requires:
+    - cmake
+    - gcc_linux-aarch64 10.*
+    - gxx_linux-aarch64 10.*
+    - ninja
+about:
+  dev_url: https://github.com/jbeder/yaml-cpp
+  doc_url: https://github.com/jbeder/yaml-cpp/wiki/Tutorial
+  home: https://github.com/jbeder/yaml-cpp
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: yaml-cpp is a YAML parser and emitter in C++ matching the YAML 1.2 spec.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - allanleal
+    - marcelotrevisani
+    - seanyen
+    - tadeu
+    - wolfv

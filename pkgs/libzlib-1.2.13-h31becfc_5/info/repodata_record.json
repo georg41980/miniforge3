@@ -1,0 +1,24 @@
+{
+    "arch": "aarch64",
+    "build": "h31becfc_5",
+    "build_number": 5,
+    "channel": "conda-forge",
+    "constrains": [
+        "zlib 1.2.13 *_5"
+    ],
+    "depends": [
+        "libgcc-ng >=12"
+    ],
+    "fn": "libzlib-1.2.13-h31becfc_5.conda",
+    "license": "Zlib",
+    "license_family": "Other",
+    "md5": "b213aa87eea9491ef7b129179322e955",
+    "name": "libzlib",
+    "platform": "linux",
+    "sha256": "aeeefbb61e5e8227e53566d5e42dbb49e120eb99109996bf0dbfde8f180747a7",
+    "size": 67036,
+    "subdir": "linux-aarch64",
+    "timestamp": 1686575148440,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libzlib-1.2.13-h31becfc_5.conda",
+    "version": "1.2.13"
+}

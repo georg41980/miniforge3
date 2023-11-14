@@ -1,0 +1,33 @@
+{
+    "arch": "aarch64",
+    "build": "py310h5938bc3_2",
+    "build_number": 2,
+    "build_string": "py310h5938bc3_2",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+    "constrains": [],
+    "depends": [
+        "fmt >=10.1.1,<11.0a0",
+        "libgcc-ng >=12",
+        "libmamba 1.5.3 hea3be6c_2",
+        "libstdcxx-ng >=12",
+        "openssl >=3.1.4,<4.0a0",
+        "pybind11-abi 4",
+        "python >=3.10,<3.11.0a0",
+        "python >=3.10,<3.11.0a0 *_cpython",
+        "python_abi 3.10.* *_cp310",
+        "yaml-cpp >=0.8.0,<0.9.0a0"
+    ],
+    "fn": "libmambapy-1.5.3-py310h5938bc3_2.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "a7eb0f75642df57697c378e4f4ae7c31",
+    "name": "libmambapy",
+    "platform": "linux",
+    "sha256": "c0dda83687bb0bde070ab2e2e8c6c107a5931a3d0df79adec8e7caac7cbe492b",
+    "size": 270273,
+    "subdir": "linux-aarch64",
+    "timestamp": 1699608732895,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libmambapy-1.5.3-py310h5938bc3_2.conda",
+    "version": "1.5.3"
+}

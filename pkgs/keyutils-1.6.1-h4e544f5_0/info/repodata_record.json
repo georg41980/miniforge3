@@ -1,0 +1,20 @@
+{
+    "arch": "aarch64",
+    "build": "h4e544f5_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=10.3.0"
+    ],
+    "fn": "keyutils-1.6.1-h4e544f5_0.tar.bz2",
+    "license": "LGPL-2.1-or-later",
+    "md5": "1f24853e59c68892452ef94ddd8afd4b",
+    "name": "keyutils",
+    "platform": "linux",
+    "sha256": "6d4233d97a9b38acbb26e1268bcf8c10a8e79c2aed7e5a385ec3769967e3e65b",
+    "size": 112327,
+    "subdir": "linux-aarch64",
+    "timestamp": 1646166857935,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/keyutils-1.6.1-h4e544f5_0.tar.bz2",
+    "version": "1.6.1"
+}

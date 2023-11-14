@@ -1,0 +1,26 @@
+{
+    "arch": "aarch64",
+    "build": "py310hcbdc16a_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "conda >=4.14,<23.4",
+        "libmambapy 1.4.2 py310hbc2a718_0",
+        "openssl >=3.1.0,<4.0a0",
+        "python >=3.10,<3.11.0a0",
+        "python >=3.10,<3.11.0a0 *_cpython",
+        "python_abi 3.10.* *_cp310"
+    ],
+    "fn": "mamba-1.4.2-py310hcbdc16a_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "81560df7af1e326bac7998b2ebd9f17e",
+    "name": "mamba",
+    "platform": "linux",
+    "sha256": "23bc37f98551e329c8813b190f7fdbef0818bf324618dcedd9ceaf0e7065bc20",
+    "size": 50798,
+    "subdir": "linux-aarch64",
+    "timestamp": 1680792731236,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/mamba-1.4.2-py310hcbdc16a_0.conda",
+    "version": "1.4.2"
+}

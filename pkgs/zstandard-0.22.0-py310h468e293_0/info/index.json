@@ -1,0 +1,20 @@
+{
+  "arch": "aarch64",
+  "build": "py310h468e293_0",
+  "build_number": 0,
+  "depends": [
+    "cffi >=1.11",
+    "libgcc-ng >=12",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310",
+    "zstd >=1.5.5,<1.5.6.0a0",
+    "zstd >=1.5.5,<1.6.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "zstandard",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1698830368600,
+  "version": "0.22.0"
+}

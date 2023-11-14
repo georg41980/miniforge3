@@ -1,0 +1,58 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon May 16 11:29:19 2022
+# ------------------------------------------------
+
+package:
+  name: libiconv
+  version: '1.17'
+source:
+  patches:
+    - glibc.patch
+  sha256: 8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313
+  url: http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.17.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - libiconv >=1.17,<2.0a0
+  string: h9cdd2b7_0
+requirements:
+  build:
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-aarch64 2.36.1 h026399b_2
+    - binutils_linux-aarch64 2.36 h7854541_9
+    - gcc_impl_linux-aarch64 10.3.0 ha07e0e6_16
+    - gcc_linux-aarch64 10.3.0 h4e3e293_9
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-aarch64 2.36.1 h02ad14f_2
+    - libgcc-devel_linux-aarch64 10.3.0 h8e480ec_16
+    - libgcc-ng 12.1.0 h3242a24_16
+    - libgomp 12.1.0 h3242a24_16
+    - libsanitizer 10.3.0 h971684a_16
+    - libstdcxx-ng 12.1.0 hd01590b_16
+    - libtool 2.4.6 h01db608_1008
+    - make 4.3 h309ac5b_1
+    - sysroot_linux-aarch64 2.17 h43d7e78_13
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc-ng 12.1.0 h3242a24_16
+    - libgomp 12.1.0 h3242a24_16
+  run:
+    - libgcc-ng >=10.3.0
+test:
+  commands:
+    - iconv --help
+about:
+  home: https://www.gnu.org/software/libiconv/
+  license: GPL and LGPL
+  license_file: COPYING
+  summary: Provides iconv for systems which don't have one (or that cannot convert
+    from/to Unicode.)
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jakirkham
+    - jhamman
+    - ocefpaf
+    - scopatz

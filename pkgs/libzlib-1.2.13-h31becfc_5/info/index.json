@@ -1,0 +1,18 @@
+{
+  "arch": "aarch64",
+  "build": "h31becfc_5",
+  "build_number": 5,
+  "constrains": [
+    "zlib 1.2.13 *_5"
+  ],
+  "depends": [
+    "libgcc-ng >=12"
+  ],
+  "license": "Zlib",
+  "license_family": "Other",
+  "name": "libzlib",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1686575148440,
+  "version": "1.2.13"
+}

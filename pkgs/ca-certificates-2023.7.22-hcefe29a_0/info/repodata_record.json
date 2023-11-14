@@ -1,0 +1,18 @@
+{
+    "arch": "aarch64",
+    "build": "hcefe29a_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [],
+    "fn": "ca-certificates-2023.7.22-hcefe29a_0.conda",
+    "license": "ISC",
+    "md5": "95d7f998087114466fa91e7c2887fa2f",
+    "name": "ca-certificates",
+    "platform": "linux",
+    "sha256": "40e98cf2a105a618cae899d9e4d26c46fdd733f015f7a322ff313bd71cab8be4",
+    "size": 149599,
+    "subdir": "linux-aarch64",
+    "timestamp": 1690026879008,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/ca-certificates-2023.7.22-hcefe29a_0.conda",
+    "version": "2023.7.22"
+}

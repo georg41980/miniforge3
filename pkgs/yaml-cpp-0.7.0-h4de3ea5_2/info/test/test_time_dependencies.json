@@ -1,0 +1,1 @@
+["cmake", "ninja", "gcc_linux-aarch64 10.*", "gxx_linux-aarch64 10.*"]

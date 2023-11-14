@@ -1,0 +1,23 @@
+{
+    "arch": "aarch64",
+    "build": "hd600fc2_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12",
+        "libstdcxx-ng >=12",
+        "reproc 14.2.4 hb4cce97_0"
+    ],
+    "fn": "reproc-cpp-14.2.4-hd600fc2_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "f2ba4e3adf041e375c41fee047408952",
+    "name": "reproc-cpp",
+    "platform": "linux",
+    "sha256": "42aa3b92a375408e4f773b2f0d54f35ac3e26e83151fe5a184937a7c4d118375",
+    "size": 21959,
+    "subdir": "linux-aarch64",
+    "timestamp": 1671663144735,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/reproc-cpp-14.2.4-hd600fc2_0.conda",
+    "version": "14.2.4"
+}

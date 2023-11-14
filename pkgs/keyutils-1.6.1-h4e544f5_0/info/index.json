@@ -1,0 +1,14 @@
+{
+  "arch": "aarch64",
+  "build": "h4e544f5_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=10.3.0"
+  ],
+  "license": "LGPL-2.1-or-later",
+  "name": "keyutils",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1646166857935,
+  "version": "1.6.1"
+}

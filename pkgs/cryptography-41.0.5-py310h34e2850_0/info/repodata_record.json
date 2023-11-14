@@ -1,0 +1,29 @@
+{
+    "arch": "aarch64",
+    "build": "py310h34e2850_0",
+    "build_number": 0,
+    "build_string": "py310h34e2850_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+    "constrains": [],
+    "depends": [
+        "cffi >=1.12",
+        "libgcc-ng >=12",
+        "openssl >=3.1.4,<4.0a0",
+        "python >=3.10,<3.11.0a0",
+        "python >=3.10,<3.11.0a0 *_cpython",
+        "python_abi 3.10.* *_cp310"
+    ],
+    "fn": "cryptography-41.0.5-py310h34e2850_0.conda",
+    "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+    "license_family": "BSD",
+    "md5": "7027a1ba1ed4bd5186a916a6a9392671",
+    "name": "cryptography",
+    "platform": "linux",
+    "sha256": "7f65899f77c35a749b75b1d91b33df6dd9ee74637dd1a159f19a1a14cf8d75b3",
+    "size": 1978729,
+    "subdir": "linux-aarch64",
+    "timestamp": 1698192312518,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/cryptography-41.0.5-py310h34e2850_0.conda",
+    "version": "41.0.5"
+}

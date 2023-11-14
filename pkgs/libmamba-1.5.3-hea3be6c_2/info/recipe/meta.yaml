@@ -1,0 +1,197 @@
+# This file created by conda-build 3.27.0
+# ------------------------------------------------
+
+package:
+  name: libmamba
+  version: 1.5.3
+source:
+  sha256: 36d617de5971ad2b4460f5446bee7622f33cf3a8a079df8f97bc24e9a5873071
+  url: https://github.com/mamba-org/mamba/archive/refs/tags/2023.10.30.tar.gz
+build:
+  ignore_run_exports:
+    - spdlog
+  number: 2
+  run_exports:
+    - libmamba >=1.5.3,<1.6.0a0
+  string: hea3be6c_2
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - binutils_impl_linux-64 2.40 hf600244_0
+    - binutils_impl_linux-aarch64 2.40 h40ea8b1_0
+    - binutils_linux-aarch64 2.40 h19b5abf_2
+    - bzip2 1.0.8 hd590300_5
+    - c-ares 1.21.0 hd590300_0
+    - ca-certificates 2023.7.22 hbcca054_0
+    - cmake 3.27.6 hcfe8598_0
+    - gcc_impl_linux-64 12.3.0 he2b93b0_2
+    - gcc_impl_linux-aarch64 12.3.0 hfb0b921_2
+    - gcc_linux-aarch64 12.3.0 hd570763_2
+    - gxx_impl_linux-64 12.3.0 he2b93b0_2
+    - gxx_impl_linux-aarch64 12.3.0 hfb0b921_2
+    - gxx_linux-aarch64 12.3.0 h4913bc6_2
+    - kernel-headers_linux-64 2.6.32 he073ed8_16
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - keyutils 1.6.1 h166bdaf_0
+    - krb5 1.21.2 h659d440_0
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - ld_impl_linux-aarch64 2.40 hc365e21_0
+    - libcurl 8.4.0 hca28451_0
+    - libedit 3.1.20191231 he28a2e2_2
+    - libev 4.33 h516909a_1
+    - libexpat 2.5.0 hcb278e6_1
+    - libgcc-devel_linux-64 12.3.0 h8bca6fd_2
+    - libgcc-devel_linux-aarch64 12.3.0 h1a07b91_2
+    - libgcc-ng 13.2.0 h807b86a_2
+    - libgomp 13.2.0 h807b86a_2
+    - libnghttp2 1.58.0 h47da74e_0
+    - libsanitizer 12.3.0 h0f45ef3_2
+    - libssh2 1.11.0 h0841786_0
+    - libstdcxx-devel_linux-64 12.3.0 h8bca6fd_2
+    - libstdcxx-devel_linux-aarch64 12.3.0 h1a07b91_2
+    - libstdcxx-ng 13.2.0 h7e041cc_2
+    - libuv 1.46.0 hd590300_0
+    - libzlib 1.2.13 hd590300_5
+    - ncurses 6.4 h59595ed_2
+    - ninja 1.11.1 h924138e_0
+    - openssl 3.1.4 hd590300_0
+    - rhash 1.4.4 hd590300_0
+    - sysroot_linux-64 2.12 he073ed8_16
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+    - xz 5.2.6 h166bdaf_0
+    - zstd 1.5.5 hfc55251_0
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 h31becfc_5
+    - c-ares 1.21.0 h31becfc_0
+    - ca-certificates 2023.7.22 hcefe29a_0
+    - cli11 2.3.2 hd600fc2_0
+    - cpp-expected 1.1.0 h4c384f3_0
+    - fmt 10.1.1 h2a328a1_0
+    - icu 73.2 h787c7f5_0
+    - keyutils 1.6.1 h4e544f5_0
+    - krb5 1.21.2 hc419048_0
+    - libarchive 3.7.2 h566b526_0
+    - libcurl 8.4.0 h4e8248e_0
+    - libedit 3.1.20191231 he28a2e2_2
+    - libev 4.33 h516909a_1
+    - libgcc-ng 13.2.0 hf8544c7_2
+    - libgomp 13.2.0 hf8544c7_2
+    - libiconv 1.17 h9cdd2b7_0
+    - libnghttp2 1.58.0 hb0e430d_0
+    - libsolv 0.7.25 hd84c7bf_0
+    - libssh2 1.11.0 h492db2e_0
+    - libstdcxx-ng 13.2.0 h9a76618_2
+    - libxml2 2.11.5 h3091e33_1
+    - libzlib 1.2.13 h31becfc_5
+    - lz4-c 1.9.4 hd600fc2_0
+    - lzo 2.10 h516909a_1000
+    - ncurses 6.4 h0425590_2
+    - nlohmann_json 3.11.2 h4de3ea5_0
+    - openssl 3.1.4 h31becfc_0
+    - reproc 14.2.4.post0 h31becfc_1
+    - reproc-cpp 14.2.4.post0 h2f0025b_1
+    - spdlog 1.12.0 h6b8df57_2
+    - xz 5.2.6 h9cdd2b7_0
+    - yaml-cpp 0.8.0 h2f0025b_0
+    - zstd 1.5.5 h4c53e97_0
+  run:
+    - fmt >=10.1.1,<11.0a0
+    - libarchive >=3.7.2,<3.8.0a0
+    - libcurl >=8.4.0,<9.0a0
+    - libgcc-ng >=12
+    - libsolv >=0.7.23
+    - libstdcxx-ng >=12
+    - openssl >=3.1.4,<4.0a0
+    - reproc >=14.2,<15.0a0
+    - reproc-cpp >=14.2,<15.0a0
+    - yaml-cpp >=0.8.0,<0.9.0a0
+    - zstd >=1.5.5,<1.6.0a0
+test:
+  commands:
+    - test -d ${PREFIX}/include/mamba
+    - test -f ${PREFIX}/include/mamba/version.hpp
+    - test -f ${PREFIX}/lib/cmake/libmamba/libmambaConfig.cmake
+    - test -f ${PREFIX}/lib/cmake/libmamba/libmambaConfigVersion.cmake
+    - test -e ${PREFIX}/lib/libmamba${SHLIB_EXT}
+    - cat $PREFIX/include/mamba/version.hpp | grep "LIBMAMBA_VERSION_MAJOR 1"
+    - cat $PREFIX/include/mamba/version.hpp | grep "LIBMAMBA_VERSION_MINOR 5"
+    - cat $PREFIX/include/mamba/version.hpp | grep "LIBMAMBA_VERSION_PATCH 3"
+about:
+  description: '
+
+    [![Build Status](https://github.com/mamba-org/mamba/workflows/CI/badge.svg)](https://github.com/mamba-org/mamba/actions)
+
+    [![Join the Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mamba-org/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+    [![docs](https://readthedocs.org/projects/mamba/badge/?version=latest&style=flat)](https://mamba.readthedocs.io/en/latest)
+
+
+    `mamba` is a reimplementation of the conda package manager in C++.
+
+
+    - parallel downloading of repository data and package files using multi-threading
+
+    - libsolv for much faster dependency solving, a state of the art library used
+    in the RPM package manager of Red Hat, Fedora and OpenSUSE
+
+    - core parts of `mamba` are implemented in C++ for maximum efficiency
+
+
+    At the same time, `mamba` utilizes the same command line parser, package installation
+    and deinstallation code and transaction verification routines as `conda` to stay
+    as compatible as possible.
+
+
+    Mamba is part of a bigger ecosystem to make scientific packaging more sustainable.
+    You can read our [announcement blog post](https://medium.com/@QuantStack/open-software-packaging-for-science-61cecee7fc23).
+
+    The ecosystem also consists of `quetz`, an open source `conda` package server
+    and `boa`, a fast `conda` package builder.
+
+
+
+    Please refer to the [`mamba` and `micromamba` installation guide](https://mamba.readthedocs.io/en/latest/installation.html)
+    in the documentation.
+
+
+
+    `mamba` and `micromamba` come with features on top of stock `conda`.
+
+
+
+    To efficiently query repositories and query package dependencies you can use `mamba
+    repoquery` or `micromamba repoquery`.
+
+    See the [repoquery documentation](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery)
+    for details.
+
+
+
+    `micromamba` can be used to install lock files generated by [conda-lock](https://conda-incubator.github.io/conda-lock/)
+    without having to install `conda-lock`. Simply invoke e.g. `micromamba create
+    -n my-env -f conda-lock.yml` with an environment lockfile named `*-lock.yml` or
+    `*-lock.yaml`.
+
+    '
+  dev_url: https://github.com/mamba-org/mamba
+  home: https://github.com/mamba-org/mamba
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: A fast drop-in alternative to conda, using libsolv for dependency resolution
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20231110.3.1
+  recipe-maintainers:
+    - AntoinePrv
+    - JohanMabille
+    - SylvainCorlay
+    - adriendelsalle
+    - ericmjl
+    - wolfv
+  remote_url: https://github.com/conda-forge/mamba-feedstock
+  sha: e1cc284b915d745407a80eb7ac21befc86db71d0

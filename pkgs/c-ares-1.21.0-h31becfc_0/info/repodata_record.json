@@ -1,0 +1,24 @@
+{
+    "arch": "aarch64",
+    "build": "h31becfc_0",
+    "build_number": 0,
+    "build_string": "h31becfc_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+    "constrains": [],
+    "depends": [
+        "libgcc-ng >=12"
+    ],
+    "fn": "c-ares-1.21.0-h31becfc_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "587c7c52db72824085e416c75e962338",
+    "name": "c-ares",
+    "platform": "linux",
+    "sha256": "a4387cce2210e1019ec779962c77b0418be813f62d8c483a061292a014914169",
+    "size": 125902,
+    "subdir": "linux-aarch64",
+    "timestamp": 1698936310574,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/c-ares-1.21.0-h31becfc_0.conda",
+    "version": "1.21.0"
+}

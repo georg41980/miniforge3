@@ -1,0 +1,126 @@
+# This file created by conda-build 3.25.0
+# ------------------------------------------------
+
+package:
+  name: brotli-python
+  version: 1.1.0
+source:
+  fn: brotli-1.1.0.tar.gz
+  sha256: e720a6ca29428b803f4ad165371771f5398faba397edf6778837a18599ea13ff
+  url: https://github.com/google/brotli/archive/v1.1.0.tar.gz
+build:
+  ignore_run_exports_from:
+    - brotli
+  number: 0
+  string: py310hbb3657e_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - _sysroot_linux-aarch64_curr_repodata_hack 4 h57d6b7b_13
+    - binutils_impl_linux-64 2.40 hf600244_0
+    - binutils_impl_linux-aarch64 2.40 h40ea8b1_0
+    - binutils_linux-aarch64 2.40 h19b5abf_1
+    - bzip2 1.0.8 h7f98852_4
+    - c-ares 1.19.1 hd590300_0
+    - ca-certificates 2023.7.22 hbcca054_0
+    - cmake 3.27.4 hcfe8598_4
+    - cross-python_linux-aarch64 3.10 40_cpython
+    - crossenv 1.4.0 pyhd8ed1ab_0
+    - gcc_impl_linux-64 12.3.0 he2b93b0_0
+    - gcc_impl_linux-aarch64 12.3.0 hfb0b921_0
+    - gcc_linux-aarch64 12.3.0 hd570763_1
+    - gxx_impl_linux-64 12.3.0 he2b93b0_0
+    - gxx_impl_linux-aarch64 12.3.0 hfb0b921_0
+    - gxx_linux-aarch64 12.3.0 h4913bc6_1
+    - kernel-headers_linux-64 2.6.32 he073ed8_16
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - keyutils 1.6.1 h166bdaf_0
+    - krb5 1.21.2 h659d440_0
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - ld_impl_linux-aarch64 2.40 hc365e21_0
+    - libcurl 8.2.1 hca28451_0
+    - libedit 3.1.20191231 he28a2e2_2
+    - libev 4.33 h516909a_1
+    - libexpat 2.5.0 hcb278e6_1
+    - libffi 3.4.2 h7f98852_5
+    - libgcc-devel_linux-64 12.3.0 h8bca6fd_0
+    - libgcc-devel_linux-aarch64 12.3.0 h1a07b91_0
+    - libgcc-ng 13.1.0 he5830b7_0
+    - libgomp 13.1.0 he5830b7_0
+    - libiconv 1.17 h166bdaf_0
+    - libnghttp2 1.52.0 h61bc06f_0
+    - libnsl 2.0.0 h7f98852_0
+    - libsanitizer 12.3.0 h0f45ef3_0
+    - libsqlite 3.43.0 h2797004_0
+    - libssh2 1.11.0 h0841786_0
+    - libstdcxx-devel_linux-64 12.3.0 h8bca6fd_0
+    - libstdcxx-devel_linux-aarch64 12.3.0 h1a07b91_0
+    - libstdcxx-ng 13.1.0 hfd8a6a1_0
+    - libuuid 2.38.1 h0b41bf4_0
+    - libuv 1.46.0 hd590300_0
+    - libzlib 1.2.13 hd590300_5
+    - lz4-c 1.9.4 hcb278e6_0
+    - ncurses 6.4 hcb278e6_0
+    - ninja 1.11.1 h924138e_0
+    - openssl 3.1.2 hd590300_0
+    - popt 1.16 h0b475e3_2002
+    - python 3.10.12 hd12c33a_0_cpython
+    - readline 8.2 h8228510_1
+    - rhash 1.4.4 hd590300_0
+    - rsync 3.2.7 h70740c4_0
+    - sed 4.8 he412f7d_0
+    - sysroot_linux-64 2.12 he073ed8_16
+    - sysroot_linux-aarch64 2.17 h5b4a56d_13
+    - tk 8.6.12 h27826a3_0
+    - tzdata 2023c h71feb2d_0
+    - xxhash 0.8.0 h7f98852_3
+    - xz 5.2.6 h166bdaf_0
+    - zstd 1.5.5 hfc55251_0
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - brotli 1.1.0 h31becfc_0
+    - bzip2 1.0.8 hf897c2e_4
+    - ca-certificates 2023.7.22 hcefe29a_0
+    - ld_impl_linux-aarch64 2.40 h2d8c526_0
+    - libffi 3.4.2 h3557bc0_5
+    - libgcc-ng 13.1.0 h2b4548d_0
+    - libgomp 13.1.0 h2b4548d_0
+    - libnsl 2.0.0 hf897c2e_0
+    - libsqlite 3.43.0 h194ca79_0
+    - libstdcxx-ng 13.1.0 h452befe_0
+    - libuuid 2.38.1 hb4cce97_0
+    - libzlib 1.2.13 h31becfc_5
+    - ncurses 6.4 h2e1726e_0
+    - openssl 3.1.2 h31becfc_0
+    - pip 23.2.1 pyhd8ed1ab_0
+    - python 3.10.12 hbbe8eec_0_cpython
+    - readline 8.2 h8fc344f_1
+    - setuptools 68.1.2 pyhd8ed1ab_0
+    - tk 8.6.12 hd8af866_0
+    - tzdata 2023c h71feb2d_0
+    - wheel 0.41.2 pyhd8ed1ab_0
+    - xz 5.2.6 h9cdd2b7_0
+  run:
+    - libgcc-ng >=12
+    - libstdcxx-ng >=12
+    - python >=3.10,<3.11.0a0
+    - python >=3.10,<3.11.0a0 *_cpython
+    - python_abi 3.10.* *_cp310
+  run_constrained:
+    - libbrotlicommon 1.1.0 h31becfc_0
+test:
+  imports:
+    - brotli
+about:
+  home: http://github.com/google/brotli
+  license: MIT
+  license_file: LICENSE
+  summary: Brotli compression format
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - CJ-Wright
+    - wesm
+    - xhochy

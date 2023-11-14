@@ -1,0 +1,20 @@
+{
+    "arch": "aarch64",
+    "build": "h9cdd2b7_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12"
+    ],
+    "fn": "xz-5.2.6-h9cdd2b7_0.tar.bz2",
+    "license": "LGPL-2.1 and GPL-2.0",
+    "md5": "83baad393a31d59c20b63ba4da6592df",
+    "name": "xz",
+    "platform": "linux",
+    "sha256": "93f58a7b393adf41fa007ac8c55978765e957e90cd31877ece1e5a343cb98220",
+    "size": 440555,
+    "subdir": "linux-aarch64",
+    "timestamp": 1660348056328,
+    "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/xz-5.2.6-h9cdd2b7_0.tar.bz2",
+    "version": "5.2.6"
+}

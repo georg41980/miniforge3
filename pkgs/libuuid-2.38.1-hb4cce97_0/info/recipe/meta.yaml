@@ -1,0 +1,54 @@
+# This file created by conda-build 3.24.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Mar 29 17:47:09 2023
+# ------------------------------------------------
+
+package:
+  name: libuuid
+  version: 2.38.1
+source:
+  fn: libuuid-2.38.1.tar.gz
+  sha256: 0820eb8eea90408047e3715424bc6be771417047f683950fecb4bdd2e2cbbc6e
+  url: https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.38/util-linux-2.38.1.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - libuuid >=2.38.1,<3.0a0
+  string: hb4cce97_0
+requirements:
+  build:
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-aarch64 2.39 h48546ad_1
+    - binutils_linux-aarch64 2.39 h489c705_12
+    - gcc_impl_linux-aarch64 11.3.0 h771ed3b_19
+    - gcc_linux-aarch64 11.3.0 h2cafa97_12
+    - gnuconfig 2020.11.07 hd8ed1ab_0
+    - kernel-headers_linux-aarch64 4.18.0 h5b4a56d_13
+    - ld_impl_linux-aarch64 2.39 h16cd69b_1
+    - libgcc-devel_linux-aarch64 11.3.0 h02014c4_19
+    - libgcc-ng 12.2.0 h607ecd0_19
+    - libgomp 12.2.0 h607ecd0_19
+    - libsanitizer 11.3.0 hdddb281_19
+    - libstdcxx-ng 12.2.0 hc13a102_19
+    - make 4.3 h309ac5b_1
+    - sysroot_linux-aarch64 2.17 h43d7e78_13
+  host:
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc-ng 12.2.0 h607ecd0_19
+    - libgomp 12.2.0 h607ecd0_19
+  run:
+    - libgcc-ng >=12
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libuuid.a
+    - test -f ${PREFIX}/lib/libuuid${SHLIB_EXT}
+about:
+  home: http://sourceforge.net/projects/libuuid/
+  license: BSD-3-Clause
+  license_file: COPYING
+  summary: Portable uuid C library.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - ocefpaf

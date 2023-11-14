@@ -1,0 +1,15 @@
+{
+  "arch": "aarch64",
+  "build": "hd600fc2_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12"
+  ],
+  "license": "BSD-2-Clause",
+  "name": "lz4-c",
+  "platform": "linux",
+  "subdir": "linux-aarch64",
+  "timestamp": 1674727020254,
+  "version": "1.9.4"
+}
